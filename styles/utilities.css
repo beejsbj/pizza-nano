@@ -1,0 +1,30 @@
+.hide {
+  display: none;
+}
+
+/* backgrounds */
+.texture {
+  background-image: var(--texture);
+}
+
+.checkers {
+  background-image: var(--checkers);
+}
+
+.diagnol {
+  background-image: var(--diagnol);
+}
+
+.points {
+  background-image: var(--points);
+}
+
+/* borders */
+.border {
+  border: var(--border);
+}
+
+/* Shadows  */
+.shadow {
+  box-shadow: var(--shadow);
+}

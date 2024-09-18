@@ -1,0 +1,77 @@
+html {
+  /* Black and white */
+  --black: hsla(0, 0%, 1%, 1);
+  --white: hsla(0, 0%, 100%, 1);
+
+  /* try hsla(68, 29%, 95%, 1.00) for white */
+
+  --paper: var(--white);
+  --ink: var(--black);
+
+  --gray: oklch(50% 0% 0);
+
+  --gray-light: oklch(65% 0% 0);
+  --gray-lighter: oklch(80% 0% 0);
+  --gray-lightest: oklch(95% 0% 0);
+
+  --gray-dark: oklch(35% 0% 0);
+  --gray-darker: oklch(20% 0% 0);
+  --gray-darkest: oklch(5% 0% 0);
+
+  /* #todo use relative colors  */
+  /* Colors */
+
+  --color: hsla(30, 70%, 63%, 1);
+
+  /* Highlight */
+
+  --highlight: hsla(2, 66%, 61%, 1);
+  /*  Accent */
+  --accent-lightness: 50%;
+  --accent-hue: calc(var(--hue) - 120);
+  --accent-chroma: 77%;
+
+  --accent: hsla(81, 53%, 25%, 1);
+
+  /* Gradients */
+
+  --gradient-direction: 130deg;
+
+  --gradient-dark: linear-gradient(
+    var(--gradient-direction),
+    var(--paper) 35%,
+    var(--gray-darker)
+  );
+
+  --gradient-light: linear-gradient(
+    var(--gradient-direction),
+    var(--gray-light) 35%,
+    var(--white)
+  );
+
+  --gradient-color: linear-gradient(
+    var(--gradient-direction),
+    var(--color) 35%,
+    var(--highlight)
+  );
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    --hue: 83;
+  }
+
+  [data-theme="light"] {
+    --hue: 29;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    --hue: 29;
+  }
+
+  [data-theme="dark"] {
+    --hue: 83;
+  }
+} */
