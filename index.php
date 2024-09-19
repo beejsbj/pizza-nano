@@ -27,7 +27,10 @@
 		<?php include 'modules/catchy-section-1/catchy-section-1.php'; ?>
 
 		<?php include 'modules/home-menu/home-menu.php'; ?>
-		
+
+		<?php include 'modules/catchy-section-2/catchy-section-2.php'; ?>
+
+
 
 
 
