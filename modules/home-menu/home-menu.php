@@ -1,7 +1,14 @@
 <section class="home-menu">
 	<inner-column>
-		<picture>
-			<img src="images/specials/pizza-1." alt="">
-		</picture>
+
+		<div class="text-content">
+			<h2 class="loud-voice">Our Signature Pizzas</h2>
+			<p class="notice-voice">From classic combinations to bold new flavors, our pizzas are crafted with care and made to order. Explore the menu and find your new favorite!</p>
+			<nav class="links">
+				<a href="#" class='button attention-voice'>See Full Menu</a>
+				<a href="#" class='attention-voice'>Order Now</a>
+
+			</nav>
+		</div>
 	</inner-column>
 </section>

@@ -1,0 +1,32 @@
+.home-menu{
+	background-color: var(--black);
+	color: var(--white);
+	background-image:url(../../images/specials/pizza-1.png);
+	background-repeat: no-repeat;
+	background-size: 78%;
+	background-position: 300% center;
+
+	inner-column{
+		padding-block: calc(var(--space-3xl) * 2);
+		padding-inline: 0;
+	}
+
+	.text-content{
+		max-width: 700px;
+		margin-top: var(--space-m);
+		a{
+			color: var(--white);
+			padding: 20px;
+			font-size: var(--font-size-1);
+		}
+
+		.links{
+			display: flex;
+			align-items: center;
+			gap: var(--space-2xl);
+			margin-top: var(--space-2xl);
+		}
+
+		
+	}
+}
