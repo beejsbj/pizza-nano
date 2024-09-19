@@ -27,9 +27,6 @@ html {
 
   --highlight: hsla(2, 66%, 61%, 1);
   /*  Accent */
-  --accent-lightness: 50%;
-  --accent-hue: calc(var(--hue) - 120);
-  --accent-chroma: 77%;
 
   --accent: hsla(81, 53%, 25%, 1);
 

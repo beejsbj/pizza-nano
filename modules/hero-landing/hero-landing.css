@@ -17,5 +17,9 @@ section.hero {
 
     /* left: -75px; */
     scale: 1.2;
+
+    @media(max-width: 800px){
+      scale: 2;
+    }
   }
 }

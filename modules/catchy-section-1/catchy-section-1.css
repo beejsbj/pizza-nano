@@ -1,0 +1,32 @@
+.catchy-1{
+	background-color: var(--color);
+	position: relative;
+
+	.header-text{
+		text-align: right;
+
+		h2{
+			
+			color: var(--white);
+		}
+	}
+
+	.header-info{
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	p{
+		max-width: 500px;
+	}
+
+	picture{
+		position: absolute;
+		left:0px;
+		bottom: -230px;
+
+	}
+
+
+}
