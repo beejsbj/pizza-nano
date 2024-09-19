@@ -1,4 +1,46 @@
+@keyframes moveBackground {
+  100% {
+    background-position: -5000px center;
+  }
+}
+
 .catchy-section-2 {
   background-image: url(../../images/catchy-2.svg);
-  min-height: 60vh;
+  background-size: cover;
+  overflow: hidden;
+  --base-animation-time: 48s; /* Define a base animation time */
+
+  inner-column {
+    display: grid;
+    gap: var(--space-s);
+    padding-inline: 0;
+  }
+
+  div {
+    min-height: 10vmin;
+    background-repeat: repeat-x;
+    background-size: 99%;
+    background-position-y: center;
+    animation: moveBackground var(--animation-time) linear infinite forwards;
+  }
+
+  div:nth-of-type(1) {
+    background-image: url(../../images/text-strip-1.svg);
+    --animation-time: calc(var(--base-animation-time) * 1);
+  }
+
+  div:nth-of-type(2) {
+    background-image: url(../../images/text-strip-pizza.svg);
+    --animation-time: calc(var(--base-animation-time) * 0.5); /* 8s */
+  }
+
+  div:nth-of-type(3) {
+    background-image: url(../../images/text-strip-2.svg);
+    --animation-time: calc(var(--base-animation-time) * 0.625); /* 10s */
+  }
+
+  div:nth-of-type(4) {
+    background-image: url(../../images/text-strip-nano.svg);
+    --animation-time: calc(var(--base-animation-time) * 1.25); /* 20s */
+  }
 }

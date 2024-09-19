@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 2024 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1,0,0,1,-20928,-15515.4)">
-        <g transform="matrix(0.525857,0,0,1,21075.3,-198.616)">
-            <g transform="matrix(5.8076,0,0,3.05397,-59394.7,-22759.9)">
+<svg width="100%" height="100%" viewBox="0 0 2196 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-22931.1,-15059.4)">
+        <g>
+            <g transform="matrix(3.05397,0,0,3.05397,-8068.76,-23414.5)">
                 <g transform="matrix(0.735166,0,0,0.735166,10153.1,12543.8)">
                     <g transform="matrix(40.8071,0,0,40.8071,162.62,105.061)">
                     </g>
@@ -24,6 +24,9 @@
                     </g>
                     <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:57.208px;">jalapeño</text>
                 </g>
+            </g>
+            <g transform="matrix(0.97004,0,0,0.384347,715.494,9301.54)">
+                <rect x="22901.7" y="14985.7" width="2263.38" height="246.407" style="fill:none;"/>
             </g>
         </g>
     </g>
