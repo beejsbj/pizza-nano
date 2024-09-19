@@ -18,4 +18,4 @@
 			<p class='notice-voice'>At Pizza Nano, we believe the secret to great pizza lies in the ingredients. From garden-fresh vegetables to hand-selected cheeses, every topping is chosen to bring out the best flavors.</p>
 		</div>
 	</inner-column>
-</sectiom>
+</section>

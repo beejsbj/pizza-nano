@@ -26,6 +26,9 @@
 
 		<?php include 'modules/catchy-section-1/catchy-section-1.php'; ?>
 
+		<?php include 'modules/home-menu/home-menu.php'; ?>
+		
+
 
 
 	</main>
