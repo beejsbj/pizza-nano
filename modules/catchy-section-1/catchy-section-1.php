@@ -1,11 +1,11 @@
 <section class="catchy-1">
 	<inner-column>
 		<div class="header-text">
-			<h2 class="attention-voice">
+			<h2 class="booming-voice">
 				Better Ingredients.
 			</h2>
 
-			<h3 class="attention-voice">
+			<h3 class="booming-voice">
 				Better Pizza. 
 			</h3>
 		</div>
