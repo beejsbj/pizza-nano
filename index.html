@@ -1,197 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/site.css" />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="styles/site.css" />
+    <!--  -->
+    <meta
+      name="description"
+      content="This contains design tokens that are used to create the visual design of the site. #todo"
+    />
+    <meta property="og:image" content="$todo" />
+    <title>Pizza Nano</title>
+  </head>
 
-	<!--  -->
-	<meta
-		name="description"
-		content="This contains design tokens that are used to create the visual design of the site. #todo" />
-	<meta property="og:image" content="$todo" />
-	<title>Pizza Nano</title>
-</head>
+  <body>
+    <header>
+      <inner-column>
+        <div class="logo-full">
+          <picture class="logo">
+            <img src="images/logo.jpg" alt="" />
+          </picture>
 
-<body>
-	<header></header>
+          <p>Pizza Nano</p>
+        </div>
 
-	<main>
+        <nav>
+          <a class="text" href="#menu">Menu</a>
+          <a class="text" href="#contact">Contact</a>
+        </nav>
+      </inner-column>
+    </header>
 
+    <main>
+      <section class="hero">
+        <inner-column>
+          <div class="text-content">
+            <h1 class="attention-voice">Taste the Nano Difference</h1>
 
-		<section class="hero">
-	<inner-column>
+            <h2 class="booming-voice">Pizza, Fresh and Personal!</h2>
 
+            <p class="notice-voice">
+              At Pizza Nano, we craft every pizza with love, using fresh
+              ingredients and family recipes to bring you flavor in every bite.
+              Made for you, made to share!
+            </p>
+          </div>
 
-		<div class="text-content">
-			<h1 class="attention-voice">
-				Taste the Nano Difference
-			</h1>
+          <picture class="hero-graphic">
+            <img src="images/hero.png" alt="" />
+          </picture>
+        </inner-column>
+      </section>
+      <section class="specials">
+        <inner-column>
+          <div class="header-text">
+            <h2 class="booming-voice">Pick-up Specials</h2>
+            <h3 class="attention-voice">Delicious Deals You Can't Resist.</h3>
+          </div>
 
-			<h2 class="booming-voice">
-				Pizza, Fresh and Personal!
-			</h2>
+          <div class="pick-up">
+            <div class="box">
+              <picture>
+                <img src="images/specials/pizza-1.png" alt="" />
+              </picture>
 
-			<p class="notice-voice">
-				At Pizza Nano, we craft every pizza with love, using fresh ingredients and family recipes to bring you flavor in every bite. Made for you, made to share!
-			</p>
-		</div>
+              <h4 class="attention-voice">Small</h4>
 
+              <div class="specs">
+                <p>6.99</p>
+                <p><span class="booming-voice">1</span> topping</p>
+              </div>
+            </div>
 
-		<picture class="hero-graphic">
-			<img src="images/hero.png" alt="">
-		</picture>
+            <div class="box">
+              <picture>
+                <img src="images/specials/pizza-2.png" alt="" />
+              </picture>
 
-	</inner-column>
-</section>
-		<section class="specials">
-	<inner-column>
-		<div class="header-text">
-			<h2 class="booming-voice">Pick-up Specials</h2>
-			<h3 class="attention-voice">Delicious Deals You Can't Resist.</h3>
-		</div>
+              <h4 class="attention-voice">Medium</h4>
 
-		<div class="pick-up">
+              <div class="specs">
+                <p>$8.99</p>
+                <p><span class="booming-voice">2</span> topping</p>
+              </div>
+            </div>
 
+            <div class="box">
+              <picture>
+                <img src="images/specials/pizza-3.png" alt="" />
+              </picture>
 
+              <h4 class="attention-voice">Large</h4>
 
+              <div class="specs">
+                <p>$9.99</p>
+                <p><span class="booming-voice">2</span> topping</p>
+              </div>
+            </div>
 
+            <div class="box">
+              <picture>
+                <img src="images/specials/pizza-1.png" alt="" />
+              </picture>
 
-			<div class="box">
+              <h4 class="attention-voice">X-large</h4>
 
-				<picture>
-					<img src="images/specials/pizza-1.png" alt="">
-				</picture>
+              <div class="specs">
+                <p>$11.99</p>
+                <p><span class="booming-voice">3</span> topping</p>
+              </div>
+            </div>
+          </div>
+        </inner-column>
+      </section>
+      <section class="catchy-1">
+        <inner-column>
+          <div class="header-text">
+            <h2 class="booming-voice">Better Ingredients.</h2>
 
-				<h4 class="attention-voice">
-					Small				</h4>
+            <h3 class="booming-voice">Better Pizza.</h3>
+          </div>
 
-				<div class="specs">
-					<p>6.99</p>
-					<p><span class='booming-voice'>1</span> topping</p>
-				</div>
-				
-			</div>
+          <div class="header-info">
+            <picture>
+              <img src="images/catchy/catchy-image.png" alt="" />
+            </picture>
 
-		
+            <p class="notice-voice">
+              At Pizza Nano, we believe the secret to great pizza lies in the
+              ingredients. From garden-fresh vegetables to hand-selected
+              cheeses, every topping is chosen to bring out the best flavors.
+            </p>
+          </div>
+        </inner-column>
+      </section>
+      <section class="home-menu">
+        <inner-column>
+          <div class="text-content">
+            <h2 class="loud-voice">Our Signature Pizzas</h2>
+            <p class="notice-voice">
+              From classic combinations to bold new flavors, our pizzas are
+              crafted with care and made to order. Explore the menu and find
+              your new favorite!
+            </p>
+            <nav class="links">
+              <a href="#" class="button attention-voice">See Full Menu</a>
+              <a href="#" class="attention-voice">Order Now</a>
+            </nav>
+          </div>
+        </inner-column>
+      </section>
+      <section class="catchy-section-2">
+        <inner-column class="full">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </inner-column>
+      </section>
+    </main>
 
-
-
-			<div class="box">
-
-				<picture>
-					<img src="images/specials/pizza-2.png" alt="">
-				</picture>
-
-				<h4 class="attention-voice">
-					Medium				</h4>
-
-				<div class="specs">
-					<p>$8.99</p>
-					<p><span class='booming-voice'>2</span> topping</p>
-				</div>
-				
-			</div>
-
-		
-
-
-
-			<div class="box">
-
-				<picture>
-					<img src="images/specials/pizza-3.png" alt="">
-				</picture>
-
-				<h4 class="attention-voice">
-					Large				</h4>
-
-				<div class="specs">
-					<p>$9.99</p>
-					<p><span class='booming-voice'>2</span> topping</p>
-				</div>
-				
-			</div>
-
-		
-
-
-
-			<div class="box">
-
-				<picture>
-					<img src="images/specials/pizza-1.png" alt="">
-				</picture>
-
-				<h4 class="attention-voice">
-					X-large				</h4>
-
-				<div class="specs">
-					<p>$11.99</p>
-					<p><span class='booming-voice'>3</span> topping</p>
-				</div>
-				
-			</div>
-
-		
-
-		</div>
-
-	</inner-column>
-</section>
-		<section class="catchy-1">
-	<inner-column>
-		<div class="header-text">
-			<h2 class="booming-voice">
-				Better Ingredients.
-			</h2>
-
-			<h3 class="booming-voice">
-				Better Pizza. 
-			</h3>
-		</div>
-
-		<div class="header-info">
-			<picture>
-				<img src="images/catchy/catchy-image.png" alt="">
-			</picture>
-
-			<p class='notice-voice'>At Pizza Nano, we believe the secret to great pizza lies in the ingredients. From garden-fresh vegetables to hand-selected cheeses, every topping is chosen to bring out the best flavors.</p>
-		</div>
-	</inner-column>
-</section>
-		<section class="home-menu">
-	<inner-column>
-
-		<div class="text-content">
-			<h2 class="loud-voice">Our Signature Pizzas</h2>
-			<p class="notice-voice">From classic combinations to bold new flavors, our pizzas are crafted with care and made to order. Explore the menu and find your new favorite!</p>
-			<nav class="links">
-				<a href="#" class='button attention-voice'>See Full Menu</a>
-				<a href="#" class='attention-voice'>Order Now</a>
-
-			</nav>
-		</div>
-	</inner-column>
-</section>
-		<section class="catchy-section-2">
-	<inner-column class="full">
-
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-
-	</inner-column>
-</section>
-
-
-
-
-	</main>
-
-	<footer></footer>
-</body>
-
+    <footer></footer>
+  </body>
 </html>
