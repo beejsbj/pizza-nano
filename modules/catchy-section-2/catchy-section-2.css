@@ -12,7 +12,6 @@
 
   inner-column {
     display: grid;
-    gap: var(--space-s);
     padding-inline: 0;
   }
 
