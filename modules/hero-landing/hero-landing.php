@@ -3,6 +3,12 @@
 
 
 		<div class="text-content">
+
+			<picture class="halal">
+				<img src="images/halal.svg" alt="">
+			</picture>
+
+
 			<h1 class="attention-voice">
 				Taste the Nano Difference
 			</h1>

@@ -5,13 +5,25 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="styles/site.css" />
+	<link rel="icon" href="logo.jpg" type="image/x-icon" />
 
-	<!--  -->
-	<meta
-		name="description"
-		content="This contains design tokens that are used to create the visual design of the site. #todo" />
-	<meta property="og:image" content="$todo" />
+	<!-- SEO Meta Tags -->
 	<title>Pizza Nano</title>
+	<meta property="og:title" content="Pizza Nano" />
+	<meta name="twitter:title" content="Pizza Nano" />
+
+	<meta property="og:url" content="https://www.yourwebsite.com" />
+
+	<meta name="description" content="Discover the best pizza in town with fresh ingredients and family recipes." />
+	<meta name="twitter:description" content="Discover the best pizza in town with fresh ingredients and family recipes." />
+	<meta property="og:description" content="Discover the best pizza in town with fresh ingredients and family recipes." />
+
+	<meta property="og:image" content="path/to/your/image.jpg" />
+	<meta name="twitter:image" content="path/to/your/image.jpg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="robots" content="index, follow" />
+	<link rel="canonical" href="https://www.yourwebsite.com" />
+
 </head>
 
 <body>
@@ -53,7 +65,19 @@
 
 	</main>
 
-	<footer></footer>
+	<footer>
+
+
+
+
+
+
+
+
+
+
+
+	</footer>
 </body>
 
 </html>

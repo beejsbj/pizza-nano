@@ -18,6 +18,13 @@
 
   p {
     max-width: 50ch;
+    z-index: 1;
+    background: linear-gradient(
+      to left,
+      var(--color) 70%,
+      hsla(31, 60%, 63%, 0.5)
+    );
+    padding: var(--space-s);
   }
 
   picture {
@@ -51,13 +58,6 @@
 
     p {
       max-width: 40ch;
-      z-index: 1;
-      background: linear-gradient(
-        to left,
-        var(--color) 70%,
-        hsla(0, 0%, 100%, 0.5)
-      );
-      padding: var(--space-s);
     }
 
     picture {

@@ -18,6 +18,22 @@ section.hero {
     }
   }
 
+  .text-content {
+    position: relative;
+    z-index: 1;
+    isolation: isolate;
+
+    .halal {
+      position: absolute;
+      top: -40px;
+      left: -25px;
+
+      rotate: -5deg;
+      max-width: 50px;
+      z-index: -2;
+    }
+  }
+
   h2 {
     color: var(--color);
     text-wrap: balance;
