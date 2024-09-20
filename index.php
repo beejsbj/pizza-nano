@@ -30,6 +30,7 @@
 
 		<?php include 'modules/catchy-section-2/catchy-section-2.php'; ?>
 
+		<?php include 'modules/reviews/reviews.php'; ?>
 
 
 
