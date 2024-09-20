@@ -28,3 +28,31 @@ body {
   background-color: var(--paper);
   color: var(--ink);
 }
+
+header {
+  inner-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-s);
+  }
+
+  .logo-full {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2xs);
+    picture {
+      max-width: 50px;
+    }
+    p {
+      font-family: var(--font-head);
+      font-size: var(--font-size-1);
+    }
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: var(--space-s);
+  }
+}
