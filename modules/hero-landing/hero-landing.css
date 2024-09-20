@@ -6,6 +6,8 @@ section.hero {
   background-repeat: repeat-x;
   background-position: 50px 50px; */
 
+  overflow: hidden;
+
   inner-column {
     display: grid;
     min-height: calc(100vh - 85px);
