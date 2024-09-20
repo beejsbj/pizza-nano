@@ -24,7 +24,8 @@
 	picture{
 		position: absolute;
 		left:0px;
-		bottom: -230px;
+		bottom: -200px;
+		max-width: 600px;
 
 	}
 
