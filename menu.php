@@ -10,9 +10,9 @@
 	<!-- SEO Meta Tags -->
 
 	<!-- title -->
-	<title>Pizza Nano</title>
-	<meta property="og:title" content="Pizza Nano" />
-	<meta name="twitter:title" content="Pizza Nano" />
+	<title>Menu</title>
+	<meta property="og:title" content="Menu" />
+	<meta name="twitter:title" content="Menu" />
 
 	<!-- url -->
 	<meta property="og:url" content="https://www.pizzanano.ca" />
@@ -49,8 +49,8 @@
 			</div>
 
 			<nav>
-				<a class="text" href="/menu.html">Menu</a>
-				<a class="text" href="#contact">Contact</a>
+				<a class="text" href="/index.html">Home</a>
+				<a class="text" href="/index.html#contact">Contact</a>
 			</nav>
 		</inner-column>
 	</header>
@@ -58,19 +58,7 @@
 	<main>
 
 
-		<?php include 'modules/hero-landing/hero-landing.php'; ?>
-
-		<?php include 'modules/specials/specials.php'; ?>
-
-		<?php include 'modules/catchy-section-1/catchy-section-1.php'; ?>
-
-		<?php include 'modules/home-menu/home-menu.php'; ?>
-
-		<?php include 'modules/catchy-section-2/catchy-section-2.php'; ?>
-
-		<?php include 'modules/reviews/reviews.php'; ?>
-
-		<?php include 'modules/delivery-section/delivery.php'; ?>
+		<?php include 'modules/menu-page/menu-page.php'; ?>
 
 
 
