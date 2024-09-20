@@ -53,7 +53,60 @@
 
 	</main>
 
-	<footer></footer>
+	<footer>
+		<inner-column class='full'>
+			<picture>
+				<img src="images/logo.jpg" alt="">
+			</picture>
+
+			<div class="quick-links">
+				<p class='firm-voice'>Quick Links</p>
+
+				<nav>
+					<a href="">Home</a>
+					<a href="">Pick-up</a>
+					<a href="">Menu</a>
+					<a href="">Reviews</a>
+					<a href="">Delivery</a>
+				</nav>
+
+			</div>
+
+			<div class="contact-info">
+				<div class="maps">
+
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5754.846285362797!2d-79.07861282372848!3d43.84705757109365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4df005d196287%3A0xaf335408bbedec47!2sPizza%20Nano!5e0!3m2!1sen!2sca!4v1726875873690!5m2!1sen!2sca" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+				</div>
+
+				<div class="business-info">
+					<p class="firm-voice">
+						Business Hours
+					</p>
+
+					<p>
+						Sunday-Thursday: 11am - 11pm
+						
+					</p>
+
+					<p>Friday & Saturday: 11am - 12am</p>
+
+					<p> Contact: 123 456 7890</p>
+
+				
+				</div>
+			</div>
+
+				
+			</div>
+
+
+
+
+		</inner-column>
+
+		<p class='copyright'>Copyright ©️ Pizza Nano. All Rights Reserved </p>
+	</footer>
 </body>
 
 </html>

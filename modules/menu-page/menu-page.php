@@ -1,5 +1,7 @@
 <?php
 
+// 2 dips every party
+
 $menu = [
 	[
 		'section' => [
@@ -17,7 +19,7 @@ $menu = [
 						'Extra Topping' => [
 							'Small' => 0.99,
 							'Medium' => 1.49,
-							'Large' => 1.74,
+							'Large' => 1.79,
 							'X-Large' => 2.34,
 							'Party' => 2.99,
 						]
