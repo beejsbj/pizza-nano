@@ -15,7 +15,22 @@
 </head>
 
 <body>
-	<header></header>
+	<header>
+		<inner-column>
+			<div class="logo-full">
+				<picture class="logo">
+					<img src="images/logo.jpg" alt="" />
+				</picture>
+
+				<p>Pizza Nano</p>
+			</div>
+
+			<nav>
+				<a class="text" href="#menu">Menu</a>
+				<a class="text" href="#contact">Contact</a>
+			</nav>
+		</inner-column>
+	</header>
 
 	<main>
 
