@@ -29,13 +29,13 @@
   }
 
   div:nth-of-type(2) {
-    background-image: url(../../images/text-strip-pizza.svg);
-    --animation-time: calc(var(--base-animation-time) * 0.5); /* 8s */
+    background-image: url(../../images/text-strip-2.svg);
+    --animation-time: calc(var(--base-animation-time) * 0.625); /* 10s */
   }
 
   div:nth-of-type(3) {
-    background-image: url(../../images/text-strip-2.svg);
-    --animation-time: calc(var(--base-animation-time) * 0.625); /* 10s */
+    background-image: url(../../images/text-strip-pizza.svg);
+    --animation-time: calc(var(--base-animation-time) * 0.5); /* 8s */
   }
 
   div:nth-of-type(4) {

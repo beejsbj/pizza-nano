@@ -71,6 +71,7 @@ html {
   font-family: var(--font-head);
   font-size: var(--font-size-3);
   line-height: var(--line-height-head);
+  text-wrap: balance;
 }
 
 .firm-voice {

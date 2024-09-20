@@ -82,7 +82,7 @@ p :is(button, a).text {
   color: var(--color) !important;
 }
 .text:active {
-  color: var(--color-dark) !important;
+  color: var(--black) !important;
 }
 
 /* loading buttons */
