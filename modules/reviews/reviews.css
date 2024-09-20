@@ -23,6 +23,10 @@
 
 	}
 
+	.review-card.red{
+		background-color: var(--highlight);
+	}
+
 	picture{
 			max-width: 20%;
 

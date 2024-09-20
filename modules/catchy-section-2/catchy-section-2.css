@@ -5,7 +5,7 @@
 }
 
 .catchy-section-2 {
-  background-image: url(../../images/catchy-2.svg);
+  background-image: url(../../images/catchy/catchy-2.svg);
   background-size: cover;
   overflow: hidden;
   --base-animation-time: 48s; /* Define a base animation time */
