@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="menu-page">
 
 <head>
 	<meta charset="UTF-8" />
@@ -42,15 +42,15 @@
 		<inner-column>
 			<div class="logo-full">
 				<picture class="logo">
-					<img src="images/logo.jpg" alt="" />
+					<img src="images/logo.png" alt="" />
 				</picture>
 
 				<p>Pizza Nano</p>
 			</div>
 
 			<nav>
-				<a class="text" href="/index.html">Home</a>
-				<a class="text" href="/index.html#contact">Contact</a>
+				<a class="text" href="index.html">Home</a>
+				<a class="text" href="index.html#contact">Contact</a>
 			</nav>
 		</inner-column>
 	</header>
