@@ -249,11 +249,11 @@ $menu = [
 		<ul class="toppings">
 			<?php foreach ($menu['Pizza Toppings'] as $topping) { ?>
 				<li>
-					<picture>
+					<!-- <picture>
 						<img src="images/specials/pizza-1.png" alt="">
-					</picture>
+					</picture> -->
 
-					<p class="whisper-voice">
+					<p>
 						<?= $topping; ?>
 					</p>
 				</li>
