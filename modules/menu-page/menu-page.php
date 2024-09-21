@@ -78,11 +78,26 @@ $menu = [
 	],
 
 	'Wing Sauces' => [
-		'Creamy Garlic',
-		'BBQ Sauce',
-		'Hot Sauce',
-		'Medium Sauce',
-		'Honey Garlic Sauce'
+		[
+			'name' => 'Creamy Garlic',
+			'image' => 'images/sauces/creamy-garlic.png'
+		],
+		[
+			'name' => 'BBQ Sauce',
+			'image' => 'images/sauces/bbq-sauce.png'
+		],
+		[
+			'name' => 'Hot Sauce',
+			'image' => 'images/sauces/hot-sauce.png'
+		],
+		[
+			'name' => 'Medium Sauce',
+			'image' => 'images/sauces/medium-sauce.png'
+		],
+		[
+			'name' => 'Honey Garlic Sauce',
+			'image' => 'images/sauces/honey-garlic.png'
+		]
 	],
 
 	'Pizza & Wing Combos' => [
@@ -117,6 +132,7 @@ $menu = [
 		[
 			'name' => 'Chicken Shawarma',
 			'description' => 'Comes with either Rice or Fries',
+			'image' => 'specials/pizza-2.png',
 			'options' => [
 				'Wrap' => 7.99,
 				'2 for' => 13.99,
@@ -125,6 +141,7 @@ $menu = [
 		],
 		[
 			'name' => 'Burger Combos',
+			'image' => 'specials/pizza-2.png',
 			'options' => [
 				'Beef/Chicken' => 7.99,
 				'Fish Fillet' => 8.99,
@@ -133,12 +150,14 @@ $menu = [
 		],
 		[
 			'name' => '2 Pcs Fish',
+			'image' => 'specials/pizza-2.png',
 			'options' => [
 				'Combo [Fries & Pop]' => 13.99
 			]
 		],
 		[
 			'name' => 'Chicken Nuggets Combo',
+			'image' => 'specials/pizza-2.png',
 			'description' => 'Fries & Drink',
 			'options' => [
 				'7 pcs Combo' => 7.99,
@@ -150,6 +169,7 @@ $menu = [
 	'Sides' => [
 		[
 			'name' => 'Onion Rings',
+			'image' => 'menu/onion-rings.png',
 			'options' => [
 				'Medium' => 5.99,
 				'Large' => 7.99
@@ -157,6 +177,7 @@ $menu = [
 		],
 		[
 			'name' => 'Potato Wedges',
+			'image' => 'menu/wedges.png',
 			'options' => [
 				'Medium' => 6.99,
 				'Large' => 8.99
@@ -164,6 +185,7 @@ $menu = [
 		],
 		[
 			'name' => 'French Fries',
+			'image' => 'menu/fries.png',
 			'options' => [
 				'Medium' => 4.99,
 				'Large' => 5.99
@@ -171,6 +193,7 @@ $menu = [
 		],
 		[
 			'name' => 'Garlic Bread',
+			'image' => 'menu/garlic-bread.png',
 			'options' => [
 				'Bread' => 3.99,
 				'with Cheese' => 4.99
@@ -178,6 +201,7 @@ $menu = [
 		],
 		[
 			'name' => 'Poutine',
+			'image' => 'menu/poutine.png',
 			'options' => [
 				'Medium' => 6.99,
 				'Large' => 8.99
@@ -186,9 +210,9 @@ $menu = [
 	],
 
 	'Beverages' => [
-		['name' => 'Bottle of water', 'price' => 1.99],
-		['name' => '1 Can of pop', 'price' => 1.99],
-		['name' => '2 litre Drink', 'price' => 4.99]
+		['name' => 'Bottle of water', 'image' => 'menu/water-bottle.png', 'price' => 1.99],
+		['name' => '1 Can of pop', 'image' => 'menu/can.png', 'price' => 1.99],
+		['name' => '2 litre Drink', 'image' => 'menu/2l-drink.png', 'price' => 4.99]
 	]
 ];
 
@@ -210,12 +234,13 @@ $menu = [
 						<img src="images/<?= $pizza['image']; ?>" alt="">
 					</picture>
 					<h3 class="notice-voice"><?= $pizza['name']; ?></h3>
-					<p class="description"><?= $pizza['description']; ?></p>
+
 					<ul class="options">
 						<?php foreach ($pizza['sizes'] as $size => $price) { ?>
 							<li><?= $size . ' - $' . $price; ?></li>
 						<?php } ?>
 					</ul>
+					<p class="description"><?= $pizza['description']; ?></p>
 				</li>
 			<?php } ?>
 		</ul>
@@ -265,9 +290,9 @@ $menu = [
 				<?php foreach ($menu['Wing Sauces'] as $sauce) { ?>
 					<li>
 						<picture>
-							<img src="images/specials/pizza-1.png" alt="">
+							<img src="<?= $sauce['image']; ?>" alt="<?= $sauce['name']; ?>">
 						</picture>
-						<p><?= $sauce; ?></p>
+						<p><?= $sauce['name']; ?></p>
 					</li>
 				<?php } ?>
 			</ul>
@@ -292,8 +317,8 @@ $menu = [
 				<?php foreach ($menu['Pizza & Wing Combos'] as $combo) { ?>
 					<li class="item-card">
 						<h3 class="notice-voice"><?= $combo['name']; ?></h3>
-						<p class="description"><?= $combo['description']; ?></p>
 						<p class="price">Price: $<?= $combo['price']; ?></p>
+						<p class="description"><?= $combo['description']; ?></p>
 					</li>
 				<?php } ?>
 			</ul>
@@ -311,17 +336,18 @@ $menu = [
 			<?php foreach ($menu['House Favorites'] as $favorite) { ?>
 				<li class="item-card">
 					<picture>
-						<img src="images/specials/pizza-1.png" alt="">
+						<img src="images/<?= $favorite['image']; ?>" alt="">
 					</picture>
 					<h3 class="notice-voice"><?= $favorite['name']; ?></h3>
-					<?php if (isset($favorite['description'])) { ?>
-						<p class="description"><?= $favorite['description']; ?></p>
-					<?php } ?>
+
 					<ul class="options">
 						<?php foreach ($favorite['options'] as $option => $price) { ?>
 							<li><?= $option . ' - $' . $price; ?></li>
 						<?php } ?>
 					</ul>
+					<?php if (isset($favorite['description'])) { ?>
+						<p class="description"><?= $favorite['description']; ?></p>
+					<?php } ?>
 				</li>
 			<?php } ?>
 		</ul>
@@ -339,7 +365,7 @@ $menu = [
 			<?php foreach ($menu['Sides'] as $side) { ?>
 				<li class="item-card">
 					<picture>
-						<img src="images/specials/pizza-1.png" alt="">
+						<img src="images/<?= $side['image']; ?>" alt="">
 					</picture>
 					<h3 class="notice-voice"><?= $side['name']; ?></h3>
 					<ul class="options">
@@ -365,10 +391,17 @@ $menu = [
 			<?php foreach ($menu['Beverages'] as $beverage) { ?>
 				<li class="item-card">
 					<picture>
-						<img src="images/specials/pizza-1.png" alt="">
+						<img src="images/<?= $beverage['image']; ?>" alt="">
 					</picture>
 					<h3 class="notice-voice"><?= $beverage['name']; ?></h3>
-					<p class="description">Price: $<?= $beverage['price']; ?></p>
+
+					<ul class="options">
+
+						<li>
+							<p>Price: $<?= $beverage['price']; ?></p>
+						</li>
+
+					</ul>
 				</li>
 			<?php } ?>
 		</ul>
