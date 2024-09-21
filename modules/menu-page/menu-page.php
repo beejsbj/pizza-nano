@@ -1,5 +1,7 @@
 <?php
 
+// 2 dips every party
+
 $menu = [
 	[
 		'name' => 'Pizza',
