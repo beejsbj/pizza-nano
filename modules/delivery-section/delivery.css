@@ -23,7 +23,7 @@
       grid-template-columns: 1fr 1fr 1.5fr;
     }
 
-/*    ul:has(.skip:hover) {
+    /*    ul:has(.skip:hover) {
       grid-template-columns: 1fr 1fr 1fr 1.5fr;
     }*/
   }

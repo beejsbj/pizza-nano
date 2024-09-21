@@ -74,28 +74,26 @@ header {
   }
 }
 
-footer{
+footer {
   background-color: var(--black);
   color: var(--white);
-  margin-top: var(--space-m);
 
-  picture{
-/*    max-width: 250px;*/
-/*    background-color: var(--white);*/
+  picture {
+    /*    max-width: 250px;*/
+    /*    background-color: var(--white);*/
   }
 
-  a{
+  a {
     color: var(--white);
     margin-block: var(--space-s);
   }
 
-  .copyright{
+  .copyright {
     text-align: center;
     margin-block: var(--space-s);
   }
 
-
-  inner-column{
+  inner-column {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -104,12 +102,11 @@ footer{
     justify-items: center;
   }
 
-  .contact-info{
+  .contact-info {
     padding: var(--space-m);
 
-    div+div{
+    div + div {
       margin-top: var(--space-xs);
     }
   }
-
 }
