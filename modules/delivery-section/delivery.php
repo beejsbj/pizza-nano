@@ -15,11 +15,6 @@
 					<img src="images/delivery-icons/doordash.svg" alt="">
 				</picture>
 			</li>
-			<li class='skip'>
-				<picture>
-					<img src="images/delivery-icons/skip.svg" alt="">
-				</picture>
-			</li>
 		</ul>
 
 </section>

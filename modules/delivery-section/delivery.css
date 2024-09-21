@@ -1,30 +1,31 @@
 .delivery {
   ul {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 
     transition: 0.2s ease-in-out;
 
     @media (min-width: 800px) {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
   @media (min-width: 800px) {
     ul:has(.nano:hover) {
-      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      grid-template-columns: 1.5fr 1fr 1fr;
     }
 
     ul:has(.uber:hover) {
-      grid-template-columns: 1fr 1.5fr 1fr 1fr;
+      grid-template-columns: 1fr 1.5fr 1fr;
     }
 
     ul:has(.doordash:hover) {
-      grid-template-columns: 1fr 1fr 1.5fr 1fr;
+      grid-template-columns: 1fr 1fr 1.5fr;
     }
 
-    ul:has(.skip:hover) {
+/*    ul:has(.skip:hover) {
       grid-template-columns: 1fr 1fr 1fr 1.5fr;
-    }
+    }*/
   }
 
   li {
@@ -40,10 +41,6 @@
     background-color: var(--black);
   }
 
-  .skip {
-    background-color: #e6863c;
-  }
-
   .doordash {
     background-color: #db3e40;
   }
@@ -53,6 +50,7 @@
   }
 
   picture {
-    padding: var(--space-2xl);
+    padding: var(--space-l);
+    margin-block: var(--space-s);
   }
 }
