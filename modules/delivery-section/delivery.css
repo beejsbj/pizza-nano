@@ -53,4 +53,8 @@
     padding: var(--space-l);
     margin-block: var(--space-s);
   }
+
+  inner-column{
+    padding-inline: 0;
+  }
 }
