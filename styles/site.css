@@ -79,10 +79,6 @@ footer{
   color: var(--white);
   margin-top: var(--space-m);
 
-  picture{
-/*    max-width: 250px;*/
-/*    background-color: var(--white);*/
-  }
 
   a{
     color: var(--white);
@@ -97,15 +93,37 @@ footer{
 
   inner-column{
     display: grid;
+    gap: var(--space-m);
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    padding-block: 0;
-    padding-inline: 0;
-    justify-items: center;
+/*    align-items: center;
+    justify-items: center;*/
+
+          picture{
+        max-width: 350px;
+
+        @media(max-width:800px) {
+          max-width: 250px;
+        }
+      }
+
+    @media(max-width:800px){
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .quick-links, .business-info{
+        text-align: left;
+      }
+
+
+
+
+
+    }
   }
 
   .contact-info{
-    padding: var(--space-m);
+/*    padding: var(--space-m);*/
 
     div+div{
       margin-top: var(--space-xs);
