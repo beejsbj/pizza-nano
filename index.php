@@ -42,14 +42,14 @@
 		<inner-column>
 			<div class="logo-full">
 				<picture class="logo">
-					<img src="images/logo.jpg" alt="" />
+					<img src="images/logo.png" alt="" />
 				</picture>
 
 				<p>Pizza Nano</p>
 			</div>
 
 			<nav>
-				<a class="text" href="/menu.html">Menu</a>
+				<a class="text" href="menu.html">Menu</a>
 				<a class="text" href="#contact">Contact</a>
 			</nav>
 		</inner-column>
