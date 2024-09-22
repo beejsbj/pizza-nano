@@ -28,7 +28,7 @@
 	]
 	
  ?>
-<section class="specials">
+<section class="specials" id='specials'>
 	<inner-column>
 		<div class="header-text">
 			<h2 class="booming-voice">Pick-up Specials</h2>

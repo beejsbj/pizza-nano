@@ -44,7 +44,7 @@
 
  ?>
 
- <section class="reviews">
+ <section class="reviews" id='reviews'>
  	<inner-column>
  		
 <?php foreach($reviews as $review) { ?>
