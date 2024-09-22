@@ -37,6 +37,7 @@
 
       p {
         color: var(--white);
+        font-size: var(--font-size-1);
         text-align: center;
         text-wrap: balance;
       }
