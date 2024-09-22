@@ -219,10 +219,22 @@ $menu = [
 
 ?>
 
+<section>
+	<inner-column>
+		<nav class="links">
+			<a href="#pizza" class='text attention-voice'>Pizza</a>
+			<a href="#wings" class='text attention-voice'>Wings</a>
+			<a href="#pizza-wings" class='text attention-voice'>Pizza & Wings Combos</a>
+			<a href="#house-favorites" class='text attention-voice'>House Favourites</a>
+			<a href="#sides" class='text attention-voice'>Sides</a>
+			<a href="#beverages" class='text attention-voice'>Beverages</a>
+		</nav>
+	</inner-column>
+</section>
 
 
 
-<section class="pizza">
+<section class="pizza" id='pizza'>
 	<inner-column>
 		<h2 class="attention-voice">
 			Pizzas
@@ -266,7 +278,7 @@ $menu = [
 </section>
 
 
-<section class="wings">
+<section class="wings" id='wings'>
 	<inner-column>
 		<h2 class="attention-voice">
 			Wings
@@ -304,7 +316,7 @@ $menu = [
 </section>
 
 
-<section class="pizza-wings">
+<section class="pizza-wings" id='pizza-wings'>
 	<inner-column>
 		<h2 class="attention-voice">
 			Pizza and Wing Combos
@@ -327,7 +339,7 @@ $menu = [
 	</inner-column>
 </section>
 
-<section class="house-favorites">
+<section class="house-favorites" id='house-favorites'>
 	<inner-column>
 		<h2 class="attention-voice">
 			House Favorites
@@ -356,7 +368,7 @@ $menu = [
 	</inner-column>
 </section>
 
-<section class="sides">
+<section class="sides" id='sides'>
 	<inner-column>
 		<h2 class="attention-voice">
 			Sides
@@ -382,7 +394,7 @@ $menu = [
 </section>
 
 
-<section class="bevrages">
+<section class="bevrages" id='beverages'>
 	<inner-column>
 		<h2 class="attention-voice">
 			Bevrages

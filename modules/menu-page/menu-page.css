@@ -2,6 +2,17 @@
   section {
   }
 
+  .links{
+    display: flex;
+    gap: var(--space-m);
+    flex-wrap: wrap;
+    }
+
+    a{
+      font-size: var(--font-size-0);
+    }
+  }
+
   h2.attention-voice {
     margin-bottom: var(--space-s);
   }
