@@ -50,7 +50,7 @@
 
 			<nav>
 				<a class="text" href="index.html">Home</a>
-				<a class="text" href="index.html#contact">Contact</a>
+				<a class="text" href="index.html#footer">Contact</a>
 			</nav>
 		</inner-column>
 	</header>

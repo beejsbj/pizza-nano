@@ -50,7 +50,7 @@
 
 			<nav>
 				<a class="text" href="menu.html">Menu</a>
-				<a class="text" href="#contact">Contact</a>
+				<a class="text" href="#footer">Contact</a>
 			</nav>
 		</inner-column>
 	</header>
@@ -76,7 +76,7 @@
 
 	</main>
 
-	<footer>
+	<footer id='footer'>
 
 		<inner-column class='full'>
 			<picture>

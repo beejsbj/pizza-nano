@@ -80,23 +80,23 @@ $menu = [
 	'Wing Sauces' => [
 		[
 			'name' => 'Creamy Garlic',
-			'image' => 'images/sauces/creamy-garlic.png'
+			'image' => 'images/menu/creamy-garlic.png'
 		],
 		[
 			'name' => 'BBQ Sauce',
-			'image' => 'images/sauces/bbq-sauce.png'
+			'image' => 'images/menu/bbq.png'
 		],
 		[
 			'name' => 'Hot Sauce',
-			'image' => 'images/sauces/hot-sauce.png'
+			'image' => 'images/menu/hot.png'
 		],
 		[
 			'name' => 'Medium Sauce',
-			'image' => 'images/sauces/medium-sauce.png'
+			'image' => 'images/menu/medium.png'
 		],
 		[
 			'name' => 'Honey Garlic Sauce',
-			'image' => 'images/sauces/honey-garlic.png'
+			'image' => 'images/menu/honey-garlic.png'
 		]
 	],
 
@@ -132,7 +132,7 @@ $menu = [
 		[
 			'name' => 'Chicken Shawarma',
 			'description' => 'Comes with either Rice or Fries',
-			'image' => 'specials/pizza-2.png',
+			'image' => 'menu/shawarma.png',
 			'options' => [
 				'Wrap' => 7.99,
 				'2 for' => 13.99,
@@ -141,7 +141,7 @@ $menu = [
 		],
 		[
 			'name' => 'Burger Combos',
-			'image' => 'specials/pizza-2.png',
+			'image' => 'menu/burger-combo.png',
 			'options' => [
 				'Beef/Chicken' => 7.99,
 				'Fish Fillet' => 8.99,
@@ -150,14 +150,14 @@ $menu = [
 		],
 		[
 			'name' => '2 Pcs Fish',
-			'image' => 'specials/pizza-2.png',
+			'image' => 'menu/fish.png',
 			'options' => [
 				'Combo [Fries & Pop]' => 13.99
 			]
 		],
 		[
 			'name' => 'Chicken Nuggets Combo',
-			'image' => 'specials/pizza-2.png',
+			'image' => 'menu/chicken-nuggets.png',
 			'description' => 'Fries & Drink',
 			'options' => [
 				'7 pcs Combo' => 7.99,
