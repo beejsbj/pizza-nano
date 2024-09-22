@@ -111,7 +111,7 @@
 
 					<p>Friday & Saturday: 11am - 12am</p>
 
-					<p> Contact: 123 456 7890</p>
+					<p> Contact: (647) 343-1449</p>
 
 				
 				</div>

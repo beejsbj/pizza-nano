@@ -2,29 +2,29 @@
 	
 	$specials =  [
 		[
-			'name' => 'Small',
-			'price' => '6.99',
-			'image' => 'pizza-1',
-			'topping' => '1'
-		],
-		[
 			'name' => 'Medium',
-			'price' => '$8.99',
-			'image' => 'pizza-2',
-			'topping' => '2'
+			'price' => '$7.99',
+			'image' => 'pizza-1',
+			'topping' => '1',
+			 'dip' => '1',
 		],
 		[
 			'name' => 'Large',
-			'price' => '$9.99',
-			'image' => 'pizza-3',
-			'topping' => '2'
+			'price' => '$10.99',
+			'image' => 'pizza-2',
+			'topping' => '1',
+			'dip' => '1'
+
 		],
 		[
-			'name' => 'X-large',
-			'price' => '$11.99',
-			'image' => 'pizza-1',
-			'topping' => '3'
+			'name' => 'X-Large',
+			'price' => '$28.99',
+			'image' => 'pizza-3',
+			'topping' => '3',
+			'dip' => '1',
+			'wings' => '10'
 		],
+
 	]
 	
  ?>
@@ -55,6 +55,15 @@
 				<div class="specs">
 					<p><?= $special['price'] ?></p>
 					<p><span class='booming-voice'><?= $special['topping'] ?></span> topping</p>
+					<p><?php
+
+					 if(isset($special['wings']) ) {
+						echo'10 Wings';
+					}
+
+					?>
+
+					</p>
 				</div>
 				
 			</div>

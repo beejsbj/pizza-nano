@@ -1,20 +1,24 @@
-<section class="delivery">
+<section class="delivery" id='delivery'>
 	<inner-column class="full">
-				<ul>
+		<ul>
 			<li class='nano'>
-				<picture>
+				<a href="tel:6473431449">
 					<img src="images/delivery-icons/call.svg" alt="">
-				</picture>
+				</a>
 			</li>
 			<li class='uber'>
-				<picture >
+				<a href="https://www.ubereats.com/ca/store/pizza-nano/WNVPKnYERbGFvxMX1wP6VQ">
+				<picture>
 					<img src="images/delivery-icons/uber-eats.svg" alt="">
 				</picture>
+				</a>
 			</li>
 			<li class='doordash'>
-				<picture>
-					<img src="images/delivery-icons/doordash.svg" alt="">
-				</picture>
+				<a href="https://www.doordash.com/store/pizza-nano-pickering-31141401/">
+					<picture>
+						<img src="images/delivery-icons/doordash.svg" alt="">
+					</picture>
+				</a>
 			</li>
 		</ul>
 	</inner-column>
