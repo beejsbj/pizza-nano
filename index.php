@@ -111,7 +111,7 @@
 
 					<p>Friday & Saturday: 11am - 12am</p>
 
-					<p> Contact: (647) 343-1449</p>
+					<p> Contact: <a href="tel:6473431449"> 647-343-1449</a></p>
 
 				
 				</div>
