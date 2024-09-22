@@ -37,6 +37,10 @@
 
 @media (max-width: 800px) {
   .catchy-1 {
+    .booming-voice {
+      font-size: var(--font-size-4);
+    }
+
     background-color: var(--color);
     position: relative;
 
