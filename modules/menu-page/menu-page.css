@@ -114,8 +114,12 @@
 
     ul.single-items {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+
       gap: var(--space-3xs);
+
+      @media (min-width: 800px) {
+        grid-template-columns: 1fr 1fr;
+      }
     }
   }
 }
