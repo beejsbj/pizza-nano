@@ -80,7 +80,7 @@
 
 		<inner-column class='full'>
 			<picture>
-				<img src="images/logo.png" alt="">
+				<img src="images/logo-new.png" alt="">
 			</picture>
 
 			<div class="quick-links">
