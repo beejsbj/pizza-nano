@@ -74,24 +74,23 @@ header {
   }
 }
 
-footer{
+footer {
   background-color: var(--black);
   color: var(--white);
-  margin-top: var(--space-m);
 
 
-  a{
+
+  a {
     color: var(--white);
     margin-block: var(--space-s);
   }
 
-  .copyright{
+  .copyright {
     text-align: center;
     margin-block: var(--space-s);
   }
 
-
-  inner-column{
+  inner-column {
     display: grid;
     gap: var(--space-m);
     grid-template-columns: 1fr 1fr 1fr;
@@ -122,12 +121,13 @@ footer{
     }
   }
 
+
   .contact-info{
 /*    padding: var(--space-m);*/
 
-    div+div{
+
+    div + div {
       margin-top: var(--space-xs);
     }
   }
-
 }

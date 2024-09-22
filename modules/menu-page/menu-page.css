@@ -17,11 +17,20 @@
   .toppings {
     margin-top: var(--space-s);
     display: grid;
+    gap: 1px;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 
     li {
       background-color: var(--black);
       padding: var(--space-s);
+      display: grid;
+      align-items: center;
+    }
+
+    p {
+      color: var(--white);
+      text-align: center;
+      text-wrap: balance;
     }
   }
 
@@ -49,9 +58,12 @@
     display: grid;
     align-content: start;
     gap: var(--space-2xs);
-    padding: var(--space-s);
+    padding: var(--space-m);
     border-radius: var(--corners);
-    background-color: var(--color);
+    /* background-color: var(--color); */
+
+    border: var(--line-width) solid var(--color);
+    box-shadow: var(--shadow);
 
     p.description {
       background-color: var(--highlight);
