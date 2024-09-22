@@ -8,7 +8,6 @@
 
   inner-column {
     padding-block: calc(var(--space-3xl) * 2);
-    padding-inline: 0;
   }
 
   .text-content {
@@ -25,6 +24,9 @@
       align-items: center;
       gap: var(--space-m);
       margin-top: var(--space-2xl);
+      @media (max-width: 800px) {
+        flex-direction: column;
+      }
     }
   }
 }
