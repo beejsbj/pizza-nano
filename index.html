@@ -25,8 +25,8 @@
 	<meta property="og:description" content="Discover the best pizza in town with fresh ingredients, family recipes, and all halal options to satisfy your cravings." />
 
 	<!-- image -->
-	<meta property="og:image" content="images/meta.jpg" />
-	<meta name="twitter:image" content="images/meta.jpg" />
+	<meta property="og:image" content="https://www.pizzanano.ca/images/meta.jpg" />
+	<meta name="twitter:image" content="https://www.pizzanano.ca/images/meta.jpg" />
 
 	<!-- misc -->
 	<meta name="twitter:card" content="summary_large_image" />
