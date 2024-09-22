@@ -54,7 +54,8 @@
     margin-block: var(--space-s);
   }
 
-  inner-column{
+  inner-column {
     padding-inline: 0;
+    padding-bottom: 0;
   }
 }
