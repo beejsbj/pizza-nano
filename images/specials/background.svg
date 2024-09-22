@@ -9,22 +9,22 @@
                         <g transform="matrix(1.41886,0,0,1.41886,10210.9,11277)">
                             <g transform="matrix(48,0,0,48,206.423,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,0,0);">Pizza</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,0,0);">Pizza</text>
                         </g>
                         <g transform="matrix(1.49842,0,0,1.49842,11451.2,11265.2)">
                             <g transform="matrix(48,0,0,48,404.447,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(188,13,13);">Mushrooms</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(188,13,13);">Mushrooms</text>
                         </g>
                         <g transform="matrix(1.49644,0,0,1.49644,10550.4,11265.3)">
                             <g transform="matrix(48,0,0,48,307.204,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,0,28);">coca cola</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,0,28);">coca cola</text>
                         </g>
                         <g transform="matrix(1.47507,0,0,1.47507,11077.9,11267.8)">
                             <g transform="matrix(48,0,0,48,209.001,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,136,0);">Sauce</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,136,0);">Sauce</text>
                         </g>
                         <g transform="matrix(0.677301,0,0,0.665492,11036,11364.2)">
                             <path d="M17.064,51.144C21.804,55.922 28.358,58.542 35.076,58.302C40.678,58.119 45.852,60.069 49.57,63.815C49.984,64.234 50.536,64.464 51.124,64.465L51.126,64.465C51.714,64.464 52.266,64.235 52.681,63.816L53.682,62.807L66.337,75.563C63.302,78.953 63.404,84.2 66.645,87.463C68.268,89.099 70.425,90 72.721,90C75.018,90 77.175,89.1 78.798,87.464C80.438,85.812 81.331,83.551 81.302,81.235C83.578,81.261 85.848,80.36 87.488,78.707C90.833,75.336 90.833,69.852 87.488,66.48C85.865,64.844 83.706,63.944 81.41,63.944C79.269,63.944 77.25,64.726 75.67,66.16L63.012,53.403L63.915,52.493C64.827,51.574 64.82,50.072 63.834,49.079C60.2,45.416 58.321,40.351 58.545,34.817C58.859,27 55.555,19.676 49.479,14.723C49.248,14.534 48.944,14.459 48.65,14.518C48.357,14.578 48.105,14.764 47.964,15.028C47.165,16.529 45.528,17.328 43.888,17.012C43.644,16.965 43.399,16.892 43.16,16.794C42.667,16.592 42.102,16.814 41.875,17.296C41.165,18.816 39.603,19.704 37.954,19.498C36.121,19.27 34.71,17.752 34.599,15.889C34.568,15.361 34.13,14.949 33.601,14.949L33.596,14.949L33.449,14.951C33.335,14.953 33.22,14.957 33.102,14.943C31.156,14.701 29.717,13.014 29.757,11.019C29.763,10.709 29.625,10.414 29.383,10.219C29.14,10.025 28.818,9.951 28.522,10.028C25.041,10.872 21.88,12.425 19.13,14.645C13.62,19.092 10.372,25.419 9.984,32.46C9.601,39.413 12.182,46.223 17.064,51.144ZM74.97,68.293C75.167,68.492 75.451,68.592 75.734,68.568C76.012,68.558 76.292,68.412 76.473,68.2C76.565,68.093 76.656,67.986 76.753,67.887C77.997,66.633 79.65,65.943 81.409,65.943C83.168,65.943 84.822,66.633 86.067,67.887C88.641,70.482 88.641,74.702 86.067,77.297C84.584,78.794 82.455,79.487 80.366,79.151C80.05,79.096 79.727,79.204 79.501,79.43C79.273,79.657 79.169,79.978 79.22,80.294C79.554,82.402 78.866,84.556 77.378,86.055C76.134,87.309 74.479,88 72.721,88C70.963,88 69.309,87.31 68.065,86.056C65.49,83.461 65.49,79.241 68.068,76.644C68.167,76.542 68.273,76.452 68.415,76.329C68.623,76.147 68.747,75.888 68.757,75.611C68.768,75.335 68.662,75.067 68.468,74.871L55.09,61.387L61.603,54.822L74.97,68.293ZM11.981,32.57C12.337,26.102 15.322,20.289 20.385,16.202C22.606,14.41 25.119,13.092 27.87,12.274C28.348,14.664 30.257,16.547 32.724,16.91C33.245,19.312 35.22,21.175 37.706,21.483C39.909,21.757 42.036,20.746 43.249,18.921C43.336,18.942 43.422,18.961 43.51,18.978C45.61,19.376 47.706,18.593 49.045,16.986C54.098,21.511 56.819,27.921 56.545,34.738C56.303,40.745 58.441,46.485 62.478,50.554C62.633,50.71 62.639,50.938 62.494,51.085L52.977,60.678L51.26,62.408C51.213,62.455 51.16,62.466 51.125,62.466C51.089,62.465 51.037,62.455 50.99,62.408C47.058,58.445 41.701,56.29 35.83,56.29C35.557,56.29 35.282,56.295 35.007,56.305C28.841,56.5 22.833,54.12 18.484,49.737C13.999,45.215 11.629,38.959 11.981,32.57Z" style="fill-rule:nonzero;stroke:black;stroke-width:0.87px;"/>
@@ -40,17 +40,17 @@
                         <g transform="matrix(1.37462,0,0,1.37462,11951.8,11672.5)">
                             <g transform="matrix(48,0,0,48,206.095,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,0,0);">pizza</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,0,0);">pizza</text>
                         </g>
                         <g transform="matrix(1.77559,0,0,1.77559,10313.4,11635.8)">
                             <g transform="matrix(48,0,0,48,411.056,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,101,0);">Garlic Br<tspan x="303.009px 336.9px " y="105.061px 105.061px ">ea</tspan>d</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,101,0);">Garlic Br<tspan x="303.009px 336.9px " y="105.061px 105.061px ">ea</tspan>d</text>
                         </g>
                         <g transform="matrix(1.77559,0,0,1.77559,11013,11637.4)">
                             <g transform="matrix(48,0,0,48,483.173,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(234,117,13);">T<tspan x="71.47px 107.329px " y="105.061px 105.061px ">an</tspan>doori Pizza</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(234,117,13);">T<tspan x="71.47px 107.329px " y="105.061px 105.061px ">an</tspan>doori Pizza</text>
                         </g>
                         <g transform="matrix(0.811726,0,0,0.812514,10276.2,11758.5)">
                             <use xlink:href="#_Image2" x="0" y="0" width="81px" height="82px"/>
@@ -63,22 +63,22 @@
                         <g transform="matrix(2.097,0,0,2.097,10752.4,11482.2)">
                             <g transform="matrix(48,0,0,48,188.564,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,158,0);">Nano</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,158,0);">Nano</text>
                         </g>
                         <g transform="matrix(1.58765,0,0,1.58765,11447.1,11522)">
                             <g transform="matrix(48,0,0,48,248.517,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,72,0);">x-large</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,72,0);">x-large</text>
                         </g>
                         <g transform="matrix(2.09424,0,0,2.09424,10141,11487)">
                             <g transform="matrix(48,0,0,48,261.618,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,0,16);">T<tspan x="71.704px 107.423px " y="105.061px 105.061px ">om</tspan>ato</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,0,16);">T<tspan x="71.704px 107.423px " y="105.061px 105.061px ">om</tspan>ato</text>
                         </g>
                         <g transform="matrix(2.04579,0,0,2.04579,11107.1,11488.3)">
                             <g transform="matrix(48,0,0,48,192.314,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,121,0);">Corn</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,121,0);">Corn</text>
                         </g>
                         <g transform="matrix(0.918378,0,0,0.932567,10709.8,11623.4)">
                             <path d="M17.064,51.144C21.804,55.922 28.358,58.542 35.076,58.302C40.678,58.119 45.852,60.069 49.57,63.815C49.984,64.234 50.536,64.464 51.124,64.465L51.126,64.465C51.714,64.464 52.266,64.235 52.681,63.816L53.682,62.807L66.337,75.563C63.302,78.953 63.404,84.2 66.645,87.463C68.268,89.099 70.425,90 72.721,90C75.018,90 77.175,89.1 78.798,87.464C80.438,85.812 81.331,83.551 81.302,81.235C83.578,81.261 85.848,80.36 87.488,78.707C90.833,75.336 90.833,69.852 87.488,66.48C85.865,64.844 83.706,63.944 81.41,63.944C79.269,63.944 77.25,64.726 75.67,66.16L63.012,53.403L63.915,52.493C64.827,51.574 64.82,50.072 63.834,49.079C60.2,45.416 58.321,40.351 58.545,34.817C58.859,27 55.555,19.676 49.479,14.723C49.248,14.534 48.944,14.459 48.65,14.518C48.357,14.578 48.105,14.764 47.964,15.028C47.165,16.529 45.528,17.328 43.888,17.012C43.644,16.965 43.399,16.892 43.16,16.794C42.667,16.592 42.102,16.814 41.875,17.296C41.165,18.816 39.603,19.704 37.954,19.498C36.121,19.27 34.71,17.752 34.599,15.889C34.568,15.361 34.13,14.949 33.601,14.949L33.596,14.949L33.449,14.951C33.335,14.953 33.22,14.957 33.102,14.943C31.156,14.701 29.717,13.014 29.757,11.019C29.763,10.709 29.625,10.414 29.383,10.219C29.14,10.025 28.818,9.951 28.522,10.028C25.041,10.872 21.88,12.425 19.13,14.645C13.62,19.092 10.372,25.419 9.984,32.46C9.601,39.413 12.182,46.223 17.064,51.144ZM74.97,68.293C75.167,68.492 75.451,68.592 75.734,68.568C76.012,68.558 76.292,68.412 76.473,68.2C76.565,68.093 76.656,67.986 76.753,67.887C77.997,66.633 79.65,65.943 81.409,65.943C83.168,65.943 84.822,66.633 86.067,67.887C88.641,70.482 88.641,74.702 86.067,77.297C84.584,78.794 82.455,79.487 80.366,79.151C80.05,79.096 79.727,79.204 79.501,79.43C79.273,79.657 79.169,79.978 79.22,80.294C79.554,82.402 78.866,84.556 77.378,86.055C76.134,87.309 74.479,88 72.721,88C70.963,88 69.309,87.31 68.065,86.056C65.49,83.461 65.49,79.241 68.068,76.644C68.167,76.542 68.273,76.452 68.415,76.329C68.623,76.147 68.747,75.888 68.757,75.611C68.768,75.335 68.662,75.067 68.468,74.871L55.09,61.387L61.603,54.822L74.97,68.293ZM11.981,32.57C12.337,26.102 15.322,20.289 20.385,16.202C22.606,14.41 25.119,13.092 27.87,12.274C28.348,14.664 30.257,16.547 32.724,16.91C33.245,19.312 35.22,21.175 37.706,21.483C39.909,21.757 42.036,20.746 43.249,18.921C43.336,18.942 43.422,18.961 43.51,18.978C45.61,19.376 47.706,18.593 49.045,16.986C54.098,21.511 56.819,27.921 56.545,34.738C56.303,40.745 58.441,46.485 62.478,50.554C62.633,50.71 62.639,50.938 62.494,51.085L52.977,60.678L51.26,62.408C51.213,62.455 51.16,62.466 51.125,62.466C51.089,62.465 51.037,62.455 50.99,62.408C47.058,58.445 41.701,56.29 35.83,56.29C35.557,56.29 35.282,56.295 35.007,56.305C28.841,56.5 22.833,54.12 18.484,49.737C13.999,45.215 11.629,38.959 11.981,32.57Z" style="fill-rule:nonzero;stroke:black;stroke-width:0.75px;"/>
@@ -86,7 +86,7 @@
                         <g transform="matrix(1.58765,0,0,1.58765,11925,11514.6)">
                             <g transform="matrix(48,0,0,48,260.025,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,108,0);">Burger</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,108,0);">Burger</text>
                         </g>
                         <g transform="matrix(0.932591,0,0,0.932591,11872,11632.7)">
                             <use xlink:href="#_Image1" x="0" y="0" width="81px" height="80px"/>
@@ -96,22 +96,22 @@
                         <g transform="matrix(2.35584,0,0,2.35584,10847.7,11011.2)">
                             <g transform="matrix(48,0,0,48,188.564,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,158,0);">Nano</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,158,0);">Nano</text>
                         </g>
                         <g transform="matrix(1.78362,0,0,1.78362,11734.9,11056.3)">
                             <g transform="matrix(48,0,0,48,248.517,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,72,0);">x-large</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,72,0);">x-large</text>
                         </g>
                         <g transform="matrix(2.35274,0,0,2.35274,10191.2,11015)">
                             <g transform="matrix(48,0,0,48,248.4,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,0,16);">tomato</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,0,16);">tomato</text>
                         </g>
                         <g transform="matrix(2.29831,0,0,2.29831,11242.2,11018.1)">
                             <g transform="matrix(48,0,0,48,192.314,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,121,0);">Corn</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,121,0);">Corn</text>
                         </g>
                         <g transform="matrix(1.02116,0,0,1.02215,11682,11180.5)">
                             <use xlink:href="#_Image2" x="0" y="0" width="81px" height="82px"/>
@@ -124,7 +124,7 @@
                         <g transform="matrix(1.87558,0,0,1.87558,11803,11700.5)">
                             <g transform="matrix(48,0,0,48,188.564,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,158,0);">Nano</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,158,0);">Nano</text>
                         </g>
                         <g transform="matrix(0.812987,0,0,0.813776,11769.6,11835.3)">
                             <use xlink:href="#_Image2" x="0" y="0" width="81px" height="82px"/>
@@ -135,22 +135,22 @@
                         <g transform="matrix(1.82978,0,0,1.82978,10214.3,11706)">
                             <g transform="matrix(48,0,0,48,192.314,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,121,0);">Corn</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,121,0);">Corn</text>
                         </g>
                         <g transform="matrix(1.78057,0,0,1.78057,11382.3,11711.6)">
                             <g transform="matrix(48,0,0,48,199.978,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(249,112,112);">Chilli</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(249,112,112);">Chilli</text>
                         </g>
                         <g transform="matrix(1.84879,0,0,1.84879,11027.4,11706.1)">
                             <g transform="matrix(48,0,0,48,209.001,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,136,0);">Sauce</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,136,0);">Sauce</text>
                         </g>
                         <g transform="matrix(1.37676,0,0,1.37676,10523.7,11741.5)">
                             <g transform="matrix(48,0,0,48,334.486,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(194,82,0);">capsicum</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(194,82,0);">capsicum</text>
                         </g>
                     </g>
                     <g transform="matrix(1.05879,0,0,1.05879,-652.402,-673.785)">
@@ -163,20 +163,20 @@
                         <g transform="matrix(1.6515,0,0,1.6515,10202.9,11138.8)">
                             <g transform="matrix(48,0,0,48,260.025,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,108,0);">Burger</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,108,0);">Burger</text>
                         </g>
                         <g transform="matrix(2.07083,0,0,2.07083,10677.2,11116.7)">
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(227,33,33);">Fries</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(227,33,33);">Fries</text>
                         </g>
                         <g transform="matrix(1.58585,0,0,1.58585,11038.2,11150.5)">
                             <g transform="matrix(48,0,0,48,234.197,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,91,91);">Wings</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,91,91);">Wings</text>
                         </g>
                         <g transform="matrix(2.15577,0,0,2.15577,11451.3,11107.1)">
                             <g transform="matrix(48,0,0,48,174.384,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(219,119,56);">RIBS</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(219,119,56);">RIBS</text>
                         </g>
                         <g transform="matrix(0.970095,0,0,0.970095,11856.7,11262.9)">
                             <use xlink:href="#_Image1" x="0" y="0" width="81px" height="80px"/>
@@ -192,22 +192,22 @@
                         <g transform="matrix(1.85912,0,0,1.85912,11065.6,11038.2)">
                             <g transform="matrix(48,0,0,48,226.743,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(197,122,0);">P<tspan x="70.439px 109.04px " y="105.061px 105.061px ">AR</tspan>TY</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(197,122,0);">P<tspan x="70.439px 109.04px " y="105.061px 105.061px ">AR</tspan>TY</text>
                         </g>
                         <g transform="matrix(1.35714,0,0,1.35714,10230.1,11069.7)">
                             <g transform="matrix(48,0,0,48,263.259,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,116,0);">Cr<tspan x="101.868px 135.759px 171.618px 228.9px " y="105.061px 105.061px 105.061px 105.061px ">eamy</tspan></text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,116,0);">Cr<tspan x="101.868px 135.759px 171.618px 228.9px " y="105.061px 105.061px 105.061px 105.061px ">eamy</tspan></text>
                         </g>
                         <g transform="matrix(1.36769,0,0,1.36769,10571.1,11076.7)">
                             <g transform="matrix(48,0,0,48,311.025,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,0,0);">Jalapeño</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,0,0);">Jalapeño</text>
                         </g>
                         <g transform="matrix(1.36108,0,0,1.36108,11569.9,11078)">
                             <g transform="matrix(48,0,0,48,340.978,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(194,82,0);">Capsicum</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(194,82,0);">Capsicum</text>
                         </g>
                     </g>
                     <g transform="matrix(0.974406,0,0,0.974406,258.745,245.742)">
@@ -217,29 +217,29 @@
                         <g transform="matrix(2.10939,0,0,2.10939,10962.6,11400.8)">
                             <g transform="matrix(48,0,0,48,226.743,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(197,122,0);">P<tspan x="70.439px 109.04px " y="105.061px 105.061px ">AR</tspan>TY</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(197,122,0);">P<tspan x="70.439px 109.04px " y="105.061px 105.061px ">AR</tspan>TY</text>
                         </g>
                         <g transform="matrix(1.53983,0,0,1.53983,10159.8,11443.7)">
                             <g transform="matrix(48,0,0,48,263.259,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,116,0);">Cr<tspan x="101.868px 135.759px 171.618px 228.9px " y="105.061px 105.061px 105.061px 105.061px ">eamy</tspan></text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,116,0);">Cr<tspan x="101.868px 135.759px 171.618px 228.9px " y="105.061px 105.061px 105.061px 105.061px ">eamy</tspan></text>
                         </g>
                         <g transform="matrix(1.52294,0,0,1.52294,10553.9,11447.1)">
                             <g transform="matrix(48,0,0,48,295.861,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,0,0);">jalapeño</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,0,0);">jalapeño</text>
                         </g>
                         <g transform="matrix(1.5443,0,0,1.5443,11530.2,11445.8)">
                             <g transform="matrix(48,0,0,48,340.978,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(194,82,0);">Capsicum</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(194,82,0);">Capsicum</text>
                         </g>
                     </g>
                     <g transform="matrix(0.948958,0,0,0.948958,422.273,488.977)">
                         <g transform="matrix(1.58056,0,0,1.58056,11855.4,11414.1)">
                             <g transform="matrix(48,0,0,48,209.001,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,136,0);">Sauce</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,136,0);">Sauce</text>
                         </g>
                         <g transform="matrix(0.713105,0,0,0.713105,11254.4,11524.5)">
                             <use xlink:href="#_Image1" x="0" y="0" width="81px" height="80px"/>
@@ -247,22 +247,22 @@
                         <g transform="matrix(2.042,0,0,2.042,10845.8,11369.4)">
                             <g transform="matrix(48,0,0,48,185.4,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,158,0);">nano</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,158,0);">nano</text>
                         </g>
                         <g transform="matrix(1.52034,0,0,1.52034,10262.7,11416.9)">
                             <g transform="matrix(48,0,0,48,411.056,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,101,0);">Garlic Br<tspan x="303.009px 336.9px " y="105.061px 105.061px ">ea</tspan>d</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,101,0);">Garlic Br<tspan x="303.009px 336.9px " y="105.061px 105.061px ">ea</tspan>d</text>
                         </g>
                         <g transform="matrix(1.52224,0,0,1.52224,11291.5,11419.2)">
                             <g transform="matrix(48,0,0,48,218.704,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,107,41);">Olives</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,107,41);">Olives</text>
                         </g>
                         <g transform="matrix(1.56431,0,0,1.56431,11600.4,11414)">
                             <g transform="matrix(48,0,0,48,192.314,105.061)">
                             </g>
-                            <text x="33.384px" y="105.061px" style="font-family:'Ultra-Regular', 'Ultra', serif;font-size:48px;fill:rgb(255,121,0);">Corn</text>
+                            <text x="33.384px" y="105.061px" style="font-family:'Ultra', serif;font-size:48px;fill:rgb(255,121,0);">Corn</text>
                         </g>
                     </g>
                 </g>
