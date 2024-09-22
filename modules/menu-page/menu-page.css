@@ -1,135 +1,133 @@
 .menu-page {
-  section {
-  }
-
-  .links{
-    display: flex;
-    gap: var(--space-m);
-    flex-wrap: wrap;
+  main {
+    .links {
+      display: flex;
+      gap: var(--space-m);
+      flex-wrap: wrap;
     }
 
-    a{
+    a {
       font-size: var(--font-size-0);
     }
-  }
 
-  h2.attention-voice {
-    margin-bottom: var(--space-s);
-  }
+    h2.attention-voice {
+      margin-bottom: var(--space-s);
+    }
 
-  h3 {
-    font-family: var(--font-head);
-  }
+    h3 {
+      font-family: var(--font-head);
+    }
 
-  p + p {
-    margin-top: 0;
-  }
+    p + p {
+      margin-top: 0;
+    }
 
-  .toppings {
-    margin-top: var(--space-s);
-    display: grid;
-    gap: 1px;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-
-    li {
-      background-color: var(--black);
-      padding: var(--space-s);
+    .toppings {
+      margin-top: var(--space-s);
       display: grid;
-      align-items: center;
-    }
-
-    p {
-      color: var(--white);
-      text-align: center;
-      text-wrap: balance;
-    }
-  }
-
-  ul.item-list {
-    display: grid;
-    gap: var(--space-2xs);
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
-    .options {
-      display: flex;
-      flex-wrap: wrap;
-      gap: var(--space-3xs);
-      align-items: center;
+      gap: 1px;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 
       li {
-        padding: var(--space-3xs) var(--space-xs);
         background-color: var(--black);
-        border-radius: var(--corners-lg);
+        padding: var(--space-s);
+        display: grid;
+        align-items: center;
+      }
+
+      p {
+        color: var(--white);
+        text-align: center;
+        text-wrap: balance;
+      }
+    }
+
+    ul.item-list {
+      display: grid;
+      gap: var(--space-2xs);
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+      .options {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-3xs);
+        align-items: center;
+
+        li {
+          padding: var(--space-3xs) var(--space-xs);
+          background-color: var(--black);
+          border-radius: var(--corners-lg);
+          color: var(--white);
+        }
+      }
+    }
+
+    .item-card {
+      display: grid;
+      align-content: start;
+      gap: var(--space-2xs);
+      padding: var(--space-m);
+      border-radius: var(--corners);
+      /* background-color: var(--color); */
+
+      border: var(--line-width) solid var(--color);
+      box-shadow: var(--shadow);
+
+      p.description {
+        background-color: var(--highlight);
+        padding: var(--space-xs);
         color: var(--white);
       }
     }
-  }
 
-  .item-card {
-    display: grid;
-    align-content: start;
-    gap: var(--space-2xs);
-    padding: var(--space-m);
-    border-radius: var(--corners);
-    /* background-color: var(--color); */
+    .wings,
+    .pizza-wings {
+      .single-item {
+        display: grid;
+        align-items: center;
+        gap: var(--space-s);
 
-    border: var(--line-width) solid var(--color);
-    box-shadow: var(--shadow);
+        @media (min-width: 800px) {
+          grid-template-columns: 1fr 1fr 1fr;
+        }
 
-    p.description {
-      background-color: var(--highlight);
-      padding: var(--space-xs);
-      color: var(--white);
+        ul.single-items {
+          display: grid;
+          gap: var(--space-3xs);
+        }
+
+        .wing-card {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: var(--space-xs);
+          background-color: var(--color);
+          padding: var(--space-2xs) var(--space-s);
+          white-space: nowrap;
+        }
+
+        .sauces {
+          display: grid;
+          gap: var(--space-s);
+          grid-template-columns: 1fr 1fr;
+          text-align: center;
+        }
+      }
     }
-  }
 
-  .wings,
-  .pizza-wings {
-    .single-item {
-      display: grid;
-      align-items: center;
-      gap: var(--space-s);
-
+    .pizza-wings .single-item {
       @media (min-width: 800px) {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
       }
 
       ul.single-items {
         display: grid;
+
         gap: var(--space-3xs);
-      }
 
-      .wing-card {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: var(--space-xs);
-        background-color: var(--color);
-        padding: var(--space-2xs) var(--space-s);
-        white-space: nowrap;
-      }
-
-      .sauces {
-        display: grid;
-        gap: var(--space-s);
-        grid-template-columns: 1fr 1fr;
-        text-align: center;
-      }
-    }
-  }
-
-  .pizza-wings .single-item {
-    @media (min-width: 800px) {
-      grid-template-columns: 1fr 2fr;
-    }
-
-    ul.single-items {
-      display: grid;
-
-      gap: var(--space-3xs);
-
-      @media (min-width: 800px) {
-        grid-template-columns: 1fr 1fr;
+        @media (min-width: 800px) {
+          grid-template-columns: 1fr 1fr;
+        }
       }
     }
   }
