@@ -29,7 +29,7 @@
       grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 
       li {
-        background-color: var(--black);
+        background-color: var(--highlight);
         padding: var(--space-s);
         display: grid;
         align-items: center;
@@ -37,6 +37,7 @@
 
       p {
         color: var(--white);
+        font-size: var(--font-size-1);
         text-align: center;
         text-wrap: balance;
       }
