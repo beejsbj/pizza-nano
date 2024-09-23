@@ -6,13 +6,13 @@
 			</h2>
 
 			<h3 class="booming-voice">
-				Better Pizza. 
+				Better Pizza.
 			</h3>
 		</div>
 
 		<div class="header-info">
 			<picture>
-				<img src="images/catchy/catchy-image.png" alt="">
+				<img src="images/catchy/catchy-image.webp" alt="">
 			</picture>
 
 			<p class='notice-voice'>At Pizza Nano, we believe the secret to great pizza lies in the ingredients. From garden-fresh vegetables to hand-selected cheeses, every topping is chosen to bring out the best flavors.</p>

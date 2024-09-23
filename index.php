@@ -43,7 +43,7 @@
 			<p>Pizza Nano</p>
 			<div class="logo-full">
 				<picture class="logo">
-					<img src="images/logo-new.png" alt="" />
+					<img src="images/logo-new.webp" alt="" />
 				</picture>
 
 
@@ -81,17 +81,17 @@
 
 		<inner-column class='full'>
 			<picture>
-				<img src="images/logo-new.png" alt="">
+				<img src="images/logo-new.webp" alt="">
 			</picture>
 
 			<div class="quick-links">
 				<p class='firm-voice'>Quick Links</p>
 
 				<nav>
-					<a href="#specials" class='calm-voice'>Pick-up</a>
-					<a href="menu.html" class='calm-voice'>Menu</a>
-					<a href="#reviews" class='calm-voice'>Reviews</a>
-					<a href="#delivery" class='calm-voice'>Delivery</a>
+					<a href="#specials" class='text calm-voice'>Pick-up</a>
+					<a href="menu.html" class='text calm-voice'>Menu</a>
+					<a href="#reviews" class='text calm-voice'>Reviews</a>
+					<a href="#delivery" class='text calm-voice'>Delivery</a>
 				</nav>
 
 			</div>

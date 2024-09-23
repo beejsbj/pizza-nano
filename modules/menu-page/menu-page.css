@@ -1,5 +1,7 @@
 .menu-page {
   main {
+    padding-bottom: var(--space-3xl);
+
     .links {
       display: flex;
       gap: var(--space-m);

@@ -24,7 +24,7 @@
 
 
 		<picture class="hero-graphic">
-			<img src="images/hero.png" alt="">
+			<img src="images/hero.webp" alt="">
 		</picture>
 
 	</inner-column>

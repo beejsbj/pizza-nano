@@ -43,7 +43,7 @@
 			<p>Pizza Nano</p>
 			<div class="logo-full">
 				<picture class="logo">
-					<img src="images/logo-new.png" alt="" />
+					<img src="images/logo-new.webp" alt="" />
 				</picture>
 
 
@@ -65,19 +65,7 @@
 
 	</main>
 
-	<footer>
 
-
-
-
-
-
-
-
-
-
-
-	</footer>
 </body>
 
 </html>
