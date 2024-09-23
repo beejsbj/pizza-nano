@@ -219,7 +219,7 @@ $menu = [
 
 ?>
 
-<section>
+<section class='menu-links'>
 	<inner-column>
 		<nav class="links">
 			<a href="#pizza" class='text attention-voice'>Pizza</a>

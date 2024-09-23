@@ -1,69 +1,92 @@
 .loading-splash {
-
-position: fixed;
-
-z-index: 1000;
-
-inset: 0;
-
-background-color: var(--black);
-
-transition: 0.2s;
-
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--black);
+  transition: background-color 0.2s;
   background-image: url("../../images/specials/background.svg");
+  
+    /* Webkit-specific full form animation properties */
+  -webkit-animation-name: moveBackgroundSplash;
+  -webkit-animation-duration: 2.1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
 
-  animation: moveBackgroundSplash 2.1s linear forwards; 
-
-
-picture {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 1001;
-
+  /* Standard animation properties */
+  animation-name: moveBackgroundSplash;
+  animation-duration: 2.1s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
-svg path {
+.loading-splash picture {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1001;
+}
+
+.loading-splash svg path {
   stroke-dasharray: 520;
-  stroke-dashoffset: -520;
-  animation: draw 1.9s ease-out forwards;
+  stroke-dashoffset: 520; /* Set initial stroke-dashoffset value */
+  
+    /* Webkit-specific full form animation properties */
+  -webkit-animation-name: draw;
+  -webkit-animation-duration: 1.9s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+
+  /* Standard animation properties */
+  animation-name: draw;
+  animation-duration: 1.9s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
+/* Keyframes for moving the background and hiding the splash */
+@-webkit-keyframes moveBackgroundSplash {
+  99% {
+    background-position: -1000px center;
+  }
+  100% {
+    visibility: hidden;
+    pointer-events: none;
+  }
 }
-
-
 
 @keyframes moveBackgroundSplash {
   99% {
     background-position: -1000px center;
-
-}
-
-
-    100% {
-  	display: none;
-  
   }
-}
-
-
-
-
-@keyframes fade {
-  0% { opacity: 1 }
-  99% { opacity: 0 }
   100% {
-  	display: none;
+    visibility: hidden;
+    pointer-events: none;
   }
 }
 
-
-
+/* Keyframes for stroke animation */
+@-webkit-keyframes draw {
+  from {
+    stroke-dashoffset: 520; /* Explicitly set the initial value */
+  }
+  to {
+    stroke-dashoffset: 0; /* Animate to 0 */
+  }
+}
 
 @keyframes draw {
+  from {
+    stroke-dashoffset: 520; /* Explicitly set the initial value */
+  }
   to {
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 0; /* Animate to 0 */
   }
 }
-

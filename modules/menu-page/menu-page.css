@@ -4,12 +4,27 @@
 
     .links {
       display: flex;
-      gap: var(--space-m);
+      gap: var(--space-xs);
       flex-wrap: wrap;
+    }
+
+    .menu-links{
+      inner-column {
+        padding-block: var(--space-s);
+      }
     }
 
     a {
       font-size: var(--font-size-0);
+      background-color: var(--black);
+      border-radius: var(--corners);
+
+      &:hover{
+        background-color: var(--accent);
+      }
+
+
+
     }
 
     h2.attention-voice {
