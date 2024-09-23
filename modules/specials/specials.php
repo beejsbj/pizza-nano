@@ -55,15 +55,16 @@
 				<div class="specs">
 					<p><?= $special['price'] ?></p>
 					<p><span class='booming-voice'><?= $special['topping'] ?></span> topping</p>
-					<p><?php
+					
+						<?php
 
-					 if(isset($special['wings']) ) {
-						echo'10 Wings';
-					}
+					 if(isset($special['wings']) ) { ?>
+						<p>
+							<?=$special['wings']?> Wings.
+						</p>
+					<?php } ?>
 
-					?>
-
-					</p>
+					
 				</div>
 				
 			</div>
