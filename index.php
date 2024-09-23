@@ -77,6 +77,9 @@
 
 		<?php include 'modules/delivery-section/delivery.php'; ?>
 
+		<?php include 'modules/loading-splash/loading-splash.php'; ?>
+
+
 
 
 	</main>

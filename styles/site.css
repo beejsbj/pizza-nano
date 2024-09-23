@@ -60,6 +60,7 @@ header {
     @media (max-width: 800px) {
       justify-content: center;
     }
+    
 
     picture {
       max-width: 100px;
