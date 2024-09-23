@@ -3,14 +3,16 @@
 		<ul>
 			<li class='nano'>
 				<a href="tel:6473431449">
-					<img src="images/delivery-icons/call.svg" alt="">
+					<picture>
+						<img src="images/delivery-icons/call.svg" alt="">
+					</picture>
 				</a>
 			</li>
 			<li class='uber'>
 				<a href="https://www.ubereats.com/ca/store/pizza-nano/WNVPKnYERbGFvxMX1wP6VQ">
-				<picture>
-					<img src="images/delivery-icons/uber-eats.svg" alt="">
-				</picture>
+					<picture>
+						<img src="images/delivery-icons/uber-eats.svg" alt="">
+					</picture>
 				</a>
 			</li>
 			<li class='doordash'>

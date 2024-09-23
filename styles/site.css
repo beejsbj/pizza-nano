@@ -46,6 +46,10 @@ header {
   p {
     font-family: var(--font-head);
     font-size: var(--font-size-1);
+
+    @media (max-width: 800px) {
+      text-align: center;
+    }
   }
 
   .logo-full {

@@ -10,30 +10,24 @@
       grid-template-columns: 1fr 1fr 1fr;
     }
   }
-  @media (min-width: 800px) {
-    ul:has(.nano:hover) {
-      grid-template-columns: 1.5fr 1fr 1fr;
-    }
-
-    ul:has(.uber:hover) {
-      grid-template-columns: 1fr 1.5fr 1fr;
-    }
-
-    ul:has(.doordash:hover) {
-      grid-template-columns: 1fr 1fr 1.5fr;
-    }
-
-    /*    ul:has(.skip:hover) {
-      grid-template-columns: 1fr 1fr 1fr 1.5fr;
-    }*/
-  }
 
   li {
     display: grid;
+    padding: var(--space-l);
+
     align-items: center;
 
     @media (min-width: 800px) {
-      min-height: 700px;
+      /* min-height: 700px; */
+      padding: calc(var(--space-3xl) * 1);
+    }
+
+    picture {
+      transition: 0.2s;
+    }
+
+    &:hover picture {
+      scale: 1.2;
     }
   }
 
@@ -47,11 +41,6 @@
 
   .uber {
     background-color: #57be70;
-  }
-
-  picture {
-    padding: var(--space-l);
-    margin-block: var(--space-s);
   }
 
   inner-column {

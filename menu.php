@@ -40,12 +40,13 @@
 <body>
 	<header>
 		<inner-column>
+			<p>Pizza Nano</p>
 			<div class="logo-full">
 				<picture class="logo">
-					<img src="images/logo.png" alt="" />
+					<img src="images/logo-new.png" alt="" />
 				</picture>
 
-				<p>Pizza Nano</p>
+
 			</div>
 
 			<nav>
