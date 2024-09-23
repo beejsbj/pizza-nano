@@ -73,7 +73,7 @@ a {
   padding: 0.5em 1em;
   background: none;
   border: none;
-  color: var(--highlight);
+  color: var(--white);
 }
 p :is(button, a).text {
   padding: 0;

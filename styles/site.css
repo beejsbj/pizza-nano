@@ -30,6 +30,9 @@ body {
 }
 
 header {
+  background-color: var(--highlight);
+  color: var(--white);
+
   inner-column {
     align-items: center;
     justify-content: space-between;
@@ -38,6 +41,11 @@ header {
     @media (min-width: 800px) {
       display: flex;
     }
+  }
+
+  p {
+    font-family: var(--font-head);
+    font-size: var(--font-size-1);
   }
 
   .logo-full {
@@ -50,11 +58,7 @@ header {
     }
 
     picture {
-      max-width: 50px;
-    }
-    p {
-      font-family: var(--font-head);
-      font-size: var(--font-size-1);
+      max-width: 100px;
     }
   }
 
@@ -78,8 +82,6 @@ footer {
   background-color: var(--black);
   color: var(--white);
 
-
-
   a {
     color: var(--white);
     margin-block: var(--space-s);
@@ -94,37 +96,31 @@ footer {
     display: grid;
     gap: var(--space-m);
     grid-template-columns: 1fr 1fr 1fr;
-/*    align-items: center;
+    /*    align-items: center;
     justify-items: center;*/
 
-          picture{
-        max-width: 350px;
+    picture {
+      max-width: 350px;
 
-        @media(max-width:800px) {
-          max-width: 250px;
-        }
+      @media (max-width: 800px) {
+        max-width: 250px;
       }
+    }
 
-    @media(max-width:800px){
+    @media (max-width: 800px) {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
 
-      .quick-links, .business-info{
+      .quick-links,
+      .business-info {
         text-align: left;
       }
-
-
-
-
-
     }
   }
 
-
-  .contact-info{
-/*    padding: var(--space-m);*/
-
+  .contact-info {
+    /*    padding: var(--space-m);*/
 
     div + div {
       margin-top: var(--space-xs);
