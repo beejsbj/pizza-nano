@@ -91,7 +91,7 @@ $menu = [
 			'image' => 'images/menu/hot.png'
 		],
 		[
-			'name' => 'Medium Sauce',
+			'name' => 'Mild Sauce',
 			'image' => 'images/menu/medium.png'
 		],
 		[
@@ -131,12 +131,11 @@ $menu = [
 	'House Favorites' => [
 		[
 			'name' => 'Chicken Shawarma',
-			'description' => 'Comes with either Rice or Fries',
 			'image' => 'menu/shawarma.png',
 			'options' => [
 				'Wrap' => 7.99,
-				'2 for' => 13.99,
-				'Dinner' => 12.99
+				'2 wraps for' => 13.99,
+				'Dinner: w/ Rice or Fries' => 12.99
 			]
 		],
 		[
