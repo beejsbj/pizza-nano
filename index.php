@@ -40,11 +40,15 @@
 <body>
 	<header>
 		<inner-column>
-			<p>Pizza Nano</p>
 			<div class="logo-full">
+
+			<p>Pizza</p>
+
 				<picture class="logo">
 					<img src="images/logo-new.webp" alt="" />
 				</picture>
+
+			<p>Nano</p>
 
 
 			</div>
