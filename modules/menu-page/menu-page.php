@@ -6,7 +6,7 @@ $menu = [
 	'Pizzas' => [
 		[
 			'name' => 'Cheese Pizza',
-			'description' => '1 Dip per Each',
+			'description' => '1 Dip',
 			'image' => 'specials/pizza-2.png',
 			'sizes' => [
 				'Small' => 7.99,
@@ -18,7 +18,7 @@ $menu = [
 		],
 		[
 			'name' => 'Single Pizza',
-			'description' => '4 Toppings & 1 Dip per Each',
+			'description' => '4 Toppings & 1 Dip',
 			'image' => 'specials/pizza-1.png',
 			'sizes' => [
 				'Small' => 11.99,
@@ -31,7 +31,7 @@ $menu = [
 		[
 			'name' => 'Double Pizzas',
 			'image' => 'menu/double-pizza.png',
-			'description' => 'Each Pizza 4 Toppings & 1 Dip',
+			'description' => '4 Toppings & 1 Dip',
 			'sizes' => [
 				'Small' => 21.99,
 				'Medium' => 27.99,
@@ -103,50 +103,51 @@ $menu = [
 	'Pizza & Wing Combos' => [
 		[
 			'name' => 'Party Pizza & Wings Special',
-			'description' => '1 Party Pizza with 4 toppings, 20 Chicken Wings, 2 Dipping Sauce, 2 pcs Garlic Bread, 2 Litre Drink',
+			'description' => '<p>1 Party Pizza with 4 toppings</p><p>20 Chicken Wings</p><p>2 Dipping Sauce</p><p>2 pcs Garlic Bread</p><p>2 Litre Drink</p>',
 			'price' => 59.99
 		],
 		[
 			'name' => 'Combo #1',
-			'description' => 'Small Pizza (4 Toppings), 10 Chicken Wings, 1 pcs Garlic Bread, 1 Dip',
+			'description' => '<p>Small Pizza (4 Toppings)</p><p>10 Chicken Wings</p><p>1 pcs Garlic Bread</p><p>1 Dip</p>',
 			'price' => 23.99
 		],
 		[
 			'name' => 'Combo #2',
-			'description' => 'Medium Pizza (4 Toppings), 12 Chicken Wings, 1 pcs Garlic Bread, 1 Dip',
+			'description' => '<p>Medium Pizza (4 Toppings)</p><p>12 Chicken Wings</p><p>1 pcs Garlic Bread</p><p>1 Dip</p>',
 			'price' => 26.99
 		],
 		[
 			'name' => 'Combo #3',
-			'description' => 'Large Pizza (4 Toppings), 16 Chicken Wings, 1 pcs Garlic Bread, 1 Dip',
+			'description' => '<p>Large Pizza (4 Toppings)</p><p>16 Chicken Wings</p><p>1 pcs Garlic Bread</p><p>1 Dip</p>',
 			'price' => 32.99
 		],
 		[
 			'name' => 'Combo #4',
-			'description' => 'X-Large Pizza (4 Toppings), 16 Chicken Wings, 1 pcs Garlic Bread, 1 Dip',
+			'description' => '<p>X-Large Pizza (4 Toppings)</p><p>16 Chicken Wings</p><p>1 pcs Garlic Bread</p><p>1 Dip</p>',
 			'price' => 38.99
 		],
 		[
 			'name' => 'Combo #5',
-			'description' => '2 Small Pizzas (4 Toppings Each), 16 Chicken Wings, 2 pcs Garlic Bread, 2 Dips',
+			'description' => '<p>2 Small Pizzas (4 Toppings)</p><p>16 Chicken Wings</p><p>2 pcs Garlic Bread</p><p>2 Dips</p>',
 			'price' => 35.99
 		],
 		[
 			'name' => 'Combo #6',
-			'description' => '2 Medium Pizzas (4 Toppings Each), 16 Chicken Wings, 2 pcs Garlic Bread, 2 Dips',
+			'description' => '<p>2 Medium Pizzas (4 Toppings)</p><p>16 Chicken Wings</p><p>2 pcs Garlic Bread</p><p>2 Dips</p>',
 			'price' => 44.99
 		],
 		[
 			'name' => 'Combo #7',
-			'description' => '2 Large Pizzas (4 Toppings Each), 16 Chicken Wings, 2 pcs Garlic Bread, 2 Dips',
+			'description' => '<p>2 Large Pizzas (4 Toppings)</p><p>16 Chicken Wings</p><p>2 pcs Garlic Bread</p><p>2 Dips</p>',
 			'price' => 59.99
 		],
 		[
 			'name' => 'Combo #8',
-			'description' => '2 X-Large Pizzas (4 Toppings Each), 16 Chicken Wings, 2 pcs Garlic Bread, 2 Dips',
+			'description' => '<p>2 X-Large Pizzas (4 Toppings)</p><p>16 Chicken Wings</p><p>2 pcs Garlic Bread</p><p>2 Dips</p>',
 			'price' => 69.99
 		]
 	],
+
 
 	'House Favorites' => [
 		[
@@ -175,11 +176,10 @@ $menu = [
 			]
 		],
 		[
-			'name' => 'Chicken Nuggets Combo',
+			'name' => 'Chicken Nuggets Combo [Fries & Pop]',
 			'image' => 'menu/chicken-nuggets.png',
-			'description' => 'Fries & Drink',
 			'options' => [
-				'7 pcs Combo' => 7.99,
+				'7 pcs Combo ' => 7.99,
 				'11 pcs Combo' => 10.99
 			]
 		],
@@ -240,6 +240,9 @@ $menu = [
 
 <section class='menu-links'>
 	<inner-column>
+		<h1 class="booming-voice">
+			Menu
+		</h1>
 		<nav class="links">
 			<a href="#pizza" class='text attention-voice'>Pizza</a>
 			<a href="#wings" class='text attention-voice'>Wings</a>
@@ -248,6 +251,8 @@ $menu = [
 			<a href="#sides" class='text attention-voice'>Sides</a>
 			<a href="#beverages" class='text attention-voice'>Beverages</a>
 		</nav>
+
+
 	</inner-column>
 </section>
 
@@ -343,14 +348,14 @@ $menu = [
 
 		<div class="single-item">
 			<picture>
-				<img src="images/menu/pizza-wings.png" alt="">
+				<img src="images/menu/pizza-wings.webp" alt="">
 			</picture>
 			<ul class="single-items">
 				<?php foreach ($menu['Pizza & Wing Combos'] as $combo) { ?>
 					<li class="item-card">
 						<h3 class="notice-voice"><?= $combo['name']; ?></h3>
 						<p class="price">Price: $<?= $combo['price']; ?></p>
-						<p class="description"><?= $combo['description']; ?></p>
+						<div class="description"><?= $combo['description']; ?></div>
 					</li>
 				<?php } ?>
 			</ul>

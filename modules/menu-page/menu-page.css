@@ -1,14 +1,18 @@
 .menu-page {
   main {
     padding-bottom: var(--space-3xl);
+    background-image: url("../../images/specials/background.svg");
+
+    animation: moveBackground 100s linear infinite forwards;
 
     .links {
+      margin-top: var(--space-s);
       display: flex;
       gap: var(--space-xs);
       flex-wrap: wrap;
     }
 
-    .menu-links{
+    .menu-links {
       inner-column {
         padding-block: var(--space-s);
       }
@@ -19,12 +23,9 @@
       background-color: var(--black);
       border-radius: var(--corners);
       color: var(--white);
-      &:hover{
+      &:hover {
         background-color: var(--accent);
       }
-
-
-
     }
 
     h2.attention-voice {
@@ -50,6 +51,7 @@
         padding: var(--space-s);
         display: grid;
         align-items: center;
+        border-radius: var(--corners);
       }
 
       p {
@@ -86,15 +88,16 @@
       gap: var(--space-2xs);
       padding: var(--space-m);
       border-radius: var(--corners);
-      /* background-color: var(--color); */
+      background-color: var(--white);
 
-      border: var(--line-width) solid var(--color);
+      /* border: var(--line-width) solid var(--color); */
       box-shadow: var(--shadow);
 
-      p.description {
+      .description {
         background-color: var(--highlight);
         padding: var(--space-xs);
         color: var(--white);
+        border-radius: var(--corners);
       }
     }
 
@@ -106,7 +109,7 @@
         gap: var(--space-s);
 
         @media (min-width: 800px) {
-          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-columns: 2fr 1fr 1fr;
         }
 
         ul.single-items {
@@ -123,6 +126,7 @@
           background-color: var(--highlight);
           padding: var(--space-2xs) var(--space-s);
           white-space: nowrap;
+          border-radius: var(--corners);
         }
 
         .sauces {
@@ -136,7 +140,7 @@
 
     .pizza-wings .single-item {
       @media (min-width: 800px) {
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1.5fr 2fr;
       }
 
       ul.single-items {
@@ -150,4 +154,12 @@
       }
     }
   }
+}
+
+p.price {
+  padding: var(--space-3xs) var(--space-xs);
+  background-color: var(--black);
+  border-radius: var(--corners-lg);
+  color: var(--white);
+  justify-self: start;
 }
