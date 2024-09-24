@@ -12,6 +12,7 @@ a {
   font-family: var(--font-body);
   font-weight: var(--weight-medium);
   outline: unset;
+  transition: 0.2s;
 }
 
 :is(button, a):is(:disabled, .disabled) {
