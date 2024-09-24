@@ -28,7 +28,7 @@ a {
   user-select: none;
   text-align: center;
   white-space: nowrap;
-  background: var(--color);
+  background: var(--highlight);
   border-radius: var(--corners);
 }
 
