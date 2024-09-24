@@ -79,7 +79,7 @@ p :is(button, a).text {
   padding: 0;
 }
 .text:is(:hover, :focus-visible) {
-  color: var(--color) !important;
+  color: var(--accent) !important;
 }
 .text:active {
   color: var(--black) !important;
