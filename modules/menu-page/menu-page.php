@@ -102,6 +102,11 @@ $menu = [
 
 	'Pizza & Wing Combos' => [
 		[
+			'name' => 'Party Pizza & Wings Special',
+			'description' => '1 Party Pizza with 4 toppings, 20 Chicken Wings, 2 Dipping Sauce, 2 pcs Garlic Bread, 2 Litre Drink',
+			'price' => 59.99
+		],
+		[
 			'name' => 'Combo #1',
 			'description' => 'Small Pizza (4 Toppings), 10 Chicken Wings, 1 pcs Garlic Bread, 1 Dip',
 			'price' => 23.99
@@ -122,9 +127,24 @@ $menu = [
 			'price' => 38.99
 		],
 		[
-			'name' => 'Party Pizza & Wings Special',
-			'description' => '1 Party Pizza with 4 toppings, 20 Chicken Wings, 2 Dipping Sauce, 2 pcs Garlic Bread, 2 Litre Drink',
+			'name' => 'Combo #5',
+			'description' => '2 Small Pizzas (4 Toppings Each), 16 Chicken Wings, 2 pcs Garlic Bread, 2 Dips',
+			'price' => 35.99
+		],
+		[
+			'name' => 'Combo #6',
+			'description' => '2 Medium Pizzas (4 Toppings Each), 16 Chicken Wings, 2 pcs Garlic Bread, 2 Dips',
+			'price' => 44.99
+		],
+		[
+			'name' => 'Combo #7',
+			'description' => '2 Large Pizzas (4 Toppings Each), 16 Chicken Wings, 2 pcs Garlic Bread, 2 Dips',
 			'price' => 59.99
+		],
+		[
+			'name' => 'Combo #8',
+			'description' => '2 X-Large Pizzas (4 Toppings Each), 16 Chicken Wings, 2 pcs Garlic Bread, 2 Dips',
+			'price' => 69.99
 		]
 	],
 
