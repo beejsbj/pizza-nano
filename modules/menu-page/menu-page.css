@@ -98,6 +98,10 @@
         padding: var(--space-xs);
         color: var(--white);
         border-radius: var(--corners);
+
+        p {
+          font-size: var(--font-size--1);
+        }
       }
     }
 
@@ -150,6 +154,11 @@
 
         @media (min-width: 800px) {
           grid-template-columns: 1fr 1fr;
+
+          li:first-child{
+            grid-column: 1/-1;
+
+          }
         }
       }
     }
