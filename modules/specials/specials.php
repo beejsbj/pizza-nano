@@ -3,7 +3,7 @@
 	$specials =  [
 		[
 			'name' => 'Medium',
-			'price' => '$8.99',
+			'price' => '$7.99',
 			'image' => 'pizza-1',
 			'topping' => '1',
 			 'dip' => '1',
