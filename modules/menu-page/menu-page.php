@@ -231,7 +231,8 @@ $menu = [
 	'Beverages' => [
 		['name' => 'Bottle of water', 'image' => 'menu/water-bottle.png', 'price' => 1.99],
 		['name' => '1 Can of pop', 'image' => 'menu/can.png', 'price' => 1.99],
-		['name' => '2 litre Drink', 'image' => 'menu/2l-drink.png', 'price' => 4.99]
+		['name' => '2 litre Drink', 'image' => 'menu/2l-drink.png', 'price' => 4.99],
+		['name' => '2 litre Drink', 'image' => 'menu/2l-drink.png', 'price' => 4.99],
 	]
 ];
 
